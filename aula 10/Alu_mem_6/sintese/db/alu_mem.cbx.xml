@@ -1,6 +1,0 @@
-<?xml version="1.0" ?>
-<LOG_ROOT>
-	<PROJECT NAME="alu_mem">
-		<CBX_INST_ENTRY INSTANCE_NAME="|alu_mem|mem_2port:mem|mem_quartus:Mem_block|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_8m62.tdf"/>
-	</PROJECT>
-</LOG_ROOT>
