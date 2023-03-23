@@ -1,0 +1,35 @@
+onerror {resume}
+quietly WaveActivateNextPane {} 0
+add wave -noupdate -label CLK<--in /tb_wisdom/clk_s
+add wave -noupdate -label RST<--in   /tb_wisdom/rst_s 
+
+add wave -noupdate -label BUTTON_ENABLE<--in /tb_wisdom/enable_s 
+add wave -noupdate -label BUTTON_SPEED<--in /tb_wisdom/sys_speed_s 
+
+add wave -noupdate -label CNT_GURU_RDY---signal /tb_wisdom/dut/cnt_guru_rdy_s 
+add wave -noupdate -label CNT_DISC_RDY---signal /tb_wisdom/cnt_disc_rdy_s 
+
+add wave -noupdate -label END_GURU---signal /tb_wisdom/dut/base/control/guru/end_of_guru 
+add wave -noupdate -label END_DISC<--from_disc_circ /tb_wisdom/end_of_disc_s
+
+add wave -noupdate -label GO_GURU<--in  /tb_wisdom/go_guru_s 
+add wave -noupdate -label DUO_FORMED<--in  /tb_wisdom/duo_formed_s 
+
+add wave -noupdate -label DISC_ADDR<--from_disc_circ  /tb_wisdom/tb_disc_addr_s 
+
+
+add wave -noupdate -label RB_OUTPUT---signal /tb_wisdom/dut/base/data/rb/rb_out 
+
+add wave -noupdate -group MEM -label MEM_ADDR(signal) /tb_wisdom/dut/mem/address_a
+add wave -noupdate -group MEM -label W_EN(signal) /tb_wisdom/dut/mem/wren_a 
+add wave -noupdate -group MEM -label DATA_IN(signal) /tb_wisdom/dut/mem/data_a 
+add wave -noupdate -group MEM -label DATA_OUT(out) /tb_wisdom/dut/mem/q_a
+
+add wave -noupdate -group STATES -label MAIN---signal /tb_wisdom/dut/base/control/main/STATE
+add wave -noupdate -group STATES -label INIT---signal /tb_wisdom/dut/base/control/init/STATE
+add wave -noupdate -group STATES -label GURU---signal /tb_wisdom/dut/base/control/guru/STATE
+
+
+run 5200 ns
+
+

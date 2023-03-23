@@ -1,0 +1,49 @@
+
+*******************************************************
+
+Cell: alu_mem    View: add_mux    Library: work
+
+*******************************************************
+
+
+ Cell        Library  References     Total Area
+
+and02        tsmc035_typ     7 x      1      9 gates
+and03        tsmc035_typ     4 x      2      6 gates
+ao21         tsmc035_typ     1 x      2      2 gates
+aoi21        tsmc035_typ    11 x      1     14 gates
+aoi22        tsmc035_typ   258 x      1    382 gates
+aoi32        tsmc035_typ     2 x      2      3 gates
+aoi332       tsmc035_typ     1 x      2      2 gates
+aoi422       tsmc035_typ     1 x      3      3 gates
+buf02        tsmc035_typ   207 x      1    211 gates
+buf04        tsmc035_typ    10 x      1     12 gates
+dff          tsmc035_typ   512 x      5   2452 gates
+inv01        tsmc035_typ    21 x      1     16 gates
+inv02        tsmc035_typ    57 x      1     43 gates
+mux21_ni     tsmc035_typ   516 x      2    934 gates
+nand02       tsmc035_typ    77 x      1     77 gates
+nand02_2x    tsmc035_typ     4 x      1      4 gates
+nand03       tsmc035_typ     4 x      1      5 gates
+nand03_2x    tsmc035_typ     2 x      1      2 gates
+nand04       tsmc035_typ    64 x      1     95 gates
+nand04_2x    tsmc035_typ     3 x      2      6 gates
+nor02_2x     tsmc035_typ    27 x      1     27 gates
+nor02ii      tsmc035_typ   134 x      1    166 gates
+nor03_2x     tsmc035_typ     2 x      1      2 gates
+nor04        tsmc035_typ    16 x      1     24 gates
+nor04_2x     tsmc035_typ     2 x      2      4 gates
+oai21        tsmc035_typ     1 x      1      1 gates
+oai222       tsmc035_typ     2 x      2      4 gates
+oai32        tsmc035_typ     1 x      2      2 gates
+or02         tsmc035_typ     6 x      1      7 gates
+or03         tsmc035_typ     1 x      2      2 gates
+
+ Number of ports :                      69
+ Number of nets :                     1990
+ Number of instances :                1954
+ Number of references to this view :     0
+
+Total accumulated area : 
+ Number of gates :                    4519
+ Number of accumulated instances :    1954

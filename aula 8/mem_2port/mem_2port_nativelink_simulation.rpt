@@ -1,0 +1,23 @@
+Info: Start Nativelink Simulation process
+Info: NativeLink has detected VHDL design -- VHDL simulation models will be used
+
+========= EDA Simulation Settings =====================
+
+Sim Mode              :  RTL
+Family                :  cycloneii
+Quartus root          :  c:/altera/10.1/quartus/bin64/
+Quartus sim root      :  c:/altera/10.1/quartus/eda/sim_lib
+Simulation Tool       :  modelsim
+Simulation Language   :  vhdl
+Version               :  93
+Simulation Mode       :  GUI
+Sim Output File       :  mem_2port.vho
+Sim SDF file          :  mem_2port__vhdl.sdo
+Sim dir               :  simulation\modelsim
+
+=======================================================
+
+Info: Starting NativeLink simulation with ModelSim software
+Sourced NativeLink script c:/altera/10.1/quartus/common/tcl/internal/nativelink/modelsim.tcl
+Warning: File mem_2port_run_msim_rtl_vhdl.do already exists - backing up current file as mem_2port_run_msim_rtl_vhdl.do.bak9
+Info: Spawning ModelSim Simulation software 

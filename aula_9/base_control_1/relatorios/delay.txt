@@ -1,0 +1,70 @@
+
+
+
+                        Clock Frequency Report
+
+	Clock                : Frequency
+      ------------------------------------
+
+	clk                  : 296.9 MHz
+
+
+                        Critical Path Report
+
+
+Critical path #1, (path slack = -0.3):
+
+NAME                                               GATE              ARRIVAL              LOAD
+----------------------------------------------------------------------------------------------
+clock information not specified
+delay thru clock network                                             0.00 (worst case)
+
+
+cnt_strat/reg_cnt_s(1)/Q                           dff         0.00  0.52 dn             0.05
+cnt_strat/cnt_s(1)                        (net)                0.00  0.52 dn   (fan)     2.00
+cnt_strat/ix1135/A                                 buf16       0.00  0.52 dn             0.00
+cnt_strat/ix1135/Y                                 buf16       0.25  0.77 dn             0.07
+cnt_strat/nx1023                          (net)                0.00  0.77 dn   (fan)     5.00
+cnt_strat/ix693/A2                                 nor04       0.00  0.77 dn             0.00
+cnt_strat/ix693/Y                                  nor04       0.26  1.03 up             0.02
+cnt_strat/nx692                           (net)                0.00  1.03 up   (fan)     1.00
+cnt_strat/ix1125/A1                                nand04_2x   0.00  1.03 up             0.00
+cnt_strat/ix1125/Y                                 nand04_2x   0.12  1.15 dn             0.02
+cnt_strat/nx1013                          (net)                0.00  1.15 dn   (fan)     1.00
+cnt_strat/reg_cnt_rdy/A0                           nor02_2x    0.00  1.15 dn             0.00
+cnt_strat/reg_cnt_rdy/Y                            nor02_2x    0.24  1.38 up             0.04
+cnt_start_f_s                             (net)                0.00  1.38 up   (fan)     4.00
+cnt_strat/reg_nx892/A0                             nor02_2x    0.00  1.38 up             0.00
+cnt_strat/reg_nx892/Y                              nor02_2x    0.17  1.55 dn             0.03
+cnt_strat/nx892                           (net)                0.00  1.55 dn   (fan)     3.00
+cnt_strat/reg_nx500/A                              buf02       0.00  1.55 dn             0.00
+cnt_strat/reg_nx500/Y                              buf02       0.33  1.88 dn             0.07
+cnt_strat/nx500                           (net)                0.00  1.88 dn   (fan)     3.00
+cnt_strat/ix1141/A                                 buf16       0.00  1.88 dn             0.00
+cnt_strat/ix1141/Y                                 buf16       0.26  2.14 dn             0.06
+cnt_strat/nx1029                          (net)                0.00  2.14 dn   (fan)     5.00
+cnt_strat/ix1129/A                                 inv01       0.00  2.14 dn             0.00
+cnt_strat/ix1129/Y                                 inv01       0.11  2.25 up             0.01
+cnt_strat/nx1017                          (net)                0.00  2.25 up   (fan)     1.00
+cnt_strat/ix1046/A0                                or03        0.00  2.25 up             0.00
+cnt_strat/ix1046/Y                                 or03        0.35  2.60 up             0.02
+cnt_strat/nx934                           (net)                0.00  2.60 up   (fan)     1.00
+cnt_strat/reg_nx564/A2                             oai332      0.00  2.60 up             0.00
+cnt_strat/reg_nx564/Y                              oai332      0.26  2.86 dn             0.01
+cnt_strat/nx564                           (net)                0.00  2.86 dn   (fan)     1.00
+cnt_strat/ix1144/A                                 buf02       0.00  2.86 dn             0.00
+cnt_strat/ix1144/Y                                 buf02       0.30  3.16 dn             0.02
+cnt_strat/nx1145                          (net)                0.00  3.16 dn   (fan)     1.00
+cnt_strat/reg_cnt_s(30)/D                          dff         0.00  3.16 dn             0.00
+data arrival time                                                    3.16
+
+
+data required time  (default specified - setup time)                  2.82
+----------------------------------------------------------------------------------------------
+data required time                                                   2.82
+data arrival time                                                    3.16
+                                                                  ----------
+slack                                                               -0.34
+----------------------------------------------------------------------------------------------
+
+

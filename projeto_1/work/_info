@@ -1,0 +1,232 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Vinícius\Desktop\USP\PSI3451_wang\projeto_1
+T_opt
+VAmfg[2Ofn>958E1DA;4BW2
+04 11 4 work tb_rand_num arch 1
+=1-641c678d78b7-62b08fb3-2c-2004
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+OL;O;10.1d;51
+Eclock_generator
+Z1 w1553190838
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\Vinícius\Desktop\USP\PSI3451_wang\projeto_1
+Z5 8C:/Users/Vinícius/Desktop/USP/PSI3451_wang/projeto_1/clock_generator.vhd
+Z6 FC:/Users/Vinícius/Desktop/USP/PSI3451_wang/projeto_1/clock_generator.vhd
+l0
+L4
+V3P3mhojPLDXS_RGP:fFDN0
+Z7 OL;C;10.1d;51
+32
+Z8 !s108 1655737529.673000
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/Vinícius/Desktop/USP/PSI3451_wang/projeto_1/clock_generator.vhd|
+Z10 !s107 C:/Users/Vinícius/Desktop/USP/PSI3451_wang/projeto_1/clock_generator.vhd|
+Z11 o-work work
+Z12 tExplicit 1
+!s100 ^PiTE4bZLjdOi^2fic@eO3
+!i10b 1
+Atest
+R2
+R3
+DEx4 work 15 clock_generator 0 22 3P3mhojPLDXS_RGP:fFDN0
+l20
+L18
+VX><FXY_ij:4f8;R?kzOY:3
+R7
+32
+R8
+R9
+R10
+R11
+R12
+!s100 SToQ2c^?6KcNA1jh`6Gi92
+!i10b 1
+Ed_reg
+Z13 w1655239754
+Z14 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R2
+R3
+R4
+Z15 8C:/Users/Vinícius/Desktop/USP/PSI3451_wang/projeto_1/d_reg.vhd
+Z16 FC:/Users/Vinícius/Desktop/USP/PSI3451_wang/projeto_1/d_reg.vhd
+l0
+L6
+Vhhmfgh_0TTmh5oUl?YikO0
+R7
+32
+Z17 !s108 1655737430.117000
+Z18 !s90 -reportprogress|300|-work|work|C:/Users/Vinícius/Desktop/USP/PSI3451_wang/projeto_1/d_reg.vhd|
+Z19 !s107 C:/Users/Vinícius/Desktop/USP/PSI3451_wang/projeto_1/d_reg.vhd|
+R11
+R12
+!s100 J^<9g6JkQL8ie0UHiGLS21
+!i10b 1
+Aarch
+R14
+R2
+R3
+DEx4 work 5 d_reg 0 22 hhmfgh_0TTmh5oUl?YikO0
+l23
+L19
+V^=ZQnGdTm@B3aUXd64UE:2
+R7
+32
+R17
+R18
+R19
+R11
+R12
+!s100 P@3MNL?domaEAWRO:oY960
+!i10b 1
+Elfsr
+Z20 w1655735892
+R14
+R2
+R3
+R4
+Z21 8C:/Users/Vinícius/Desktop/USP/PSI3451_wang/projeto_1/lfsr.vhd
+Z22 FC:/Users/Vinícius/Desktop/USP/PSI3451_wang/projeto_1/lfsr.vhd
+l0
+L6
+V9?>DK<ea[So^9fX7IV^Q`0
+R7
+32
+Z23 !s108 1655737432.466000
+Z24 !s90 -reportprogress|300|-work|work|C:/Users/Vinícius/Desktop/USP/PSI3451_wang/projeto_1/lfsr.vhd|
+Z25 !s107 C:/Users/Vinícius/Desktop/USP/PSI3451_wang/projeto_1/lfsr.vhd|
+R11
+R12
+!s100 Pc=>=ZeaTWzTimDTknGg_2
+!i10b 1
+Aestrutural
+R14
+R2
+R3
+DEx4 work 4 lfsr 0 22 9?>DK<ea[So^9fX7IV^Q`0
+l31
+L16
+V?T3QE9J1TfY_V?52mS2?S2
+R7
+32
+R23
+R24
+R25
+R11
+R12
+!s100 DhE^Y2h;ZK>8R^9]307OO3
+!i10b 1
+Erand_num
+Z26 w1655738264
+R14
+R2
+R3
+R4
+Z27 8C:/Users/Vinícius/Desktop/USP/PSI3451_wang/projeto_1/rand_num.vhd
+Z28 FC:/Users/Vinícius/Desktop/USP/PSI3451_wang/projeto_1/rand_num.vhd
+l0
+L6
+VIaCif0g`05@9hgoOUAF7^3
+R7
+32
+Z29 !s108 1655738278.289000
+Z30 !s90 -reportprogress|300|-work|work|C:/Users/Vinícius/Desktop/USP/PSI3451_wang/projeto_1/rand_num.vhd|
+Z31 !s107 C:/Users/Vinícius/Desktop/USP/PSI3451_wang/projeto_1/rand_num.vhd|
+R11
+R12
+!s100 k1e<FYSiMf2LSOG?Oj@Zn0
+!i10b 1
+Astructural
+R14
+R2
+R3
+DEx4 work 8 rand_num 0 22 IaCif0g`05@9hgoOUAF7^3
+l33
+L19
+V_Ijl1D5SCdfozzTziV3l^1
+R7
+32
+R29
+R30
+R31
+R11
+R12
+!s100 fFOk==nQ<d^@RzD;lUTCB2
+!i10b 1
+Estimuli_rand_num
+Z32 w1655737516
+R14
+R2
+R3
+R4
+Z33 8C:/Users/Vinícius/Desktop/USP/PSI3451_wang/projeto_1/stimuli_rand_num.vhd
+Z34 FC:/Users/Vinícius/Desktop/USP/PSI3451_wang/projeto_1/stimuli_rand_num.vhd
+l0
+L6
+V3WKHUEJY8zm^R1B7D92n[2
+R7
+32
+Z35 !s108 1655738281.285000
+Z36 !s90 -reportprogress|300|-work|work|C:/Users/Vinícius/Desktop/USP/PSI3451_wang/projeto_1/stimuli_rand_num.vhd|
+Z37 !s107 C:/Users/Vinícius/Desktop/USP/PSI3451_wang/projeto_1/stimuli_rand_num.vhd|
+R11
+R12
+!s100 KSJ56`MeO=5[<W7X:42DK2
+!i10b 1
+Atest
+R14
+R2
+R3
+DEx4 work 16 stimuli_rand_num 0 22 3WKHUEJY8zm^R1B7D92n[2
+l33
+L19
+VJ:8[YLOdg<lf5nLNZ`JUf1
+R7
+32
+R35
+R36
+R37
+R11
+R12
+!s100 j2P6a_P^ldeU11Z_AI6Y20
+!i10b 1
+Etb_rand_num
+Z38 w1655736103
+R14
+R2
+R3
+R4
+Z39 8C:/Users/Vinícius/Desktop/USP/PSI3451_wang/projeto_1/testbench_rand_num.vhd
+Z40 FC:/Users/Vinícius/Desktop/USP/PSI3451_wang/projeto_1/testbench_rand_num.vhd
+l0
+L6
+V9J:Z:ACBcfYbLRTBQkomh1
+R7
+32
+Z41 !s108 1655738283.165000
+Z42 !s90 -reportprogress|300|-work|work|C:/Users/Vinícius/Desktop/USP/PSI3451_wang/projeto_1/testbench_rand_num.vhd|
+Z43 !s107 C:/Users/Vinícius/Desktop/USP/PSI3451_wang/projeto_1/testbench_rand_num.vhd|
+R11
+R12
+!s100 m_D>:]WA1L4:]7BW6SJ062
+!i10b 1
+Aarch
+R14
+R2
+R3
+DEx4 work 11 tb_rand_num 0 22 9J:Z:ACBcfYbLRTBQkomh1
+l40
+L13
+V7K90A@OfcmRdWMMF8=`2W2
+R7
+32
+R41
+R42
+R43
+R11
+R12
+!s100 Pk=XDn[97Xm;9FaNW?L8N2
+!i10b 1

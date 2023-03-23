@@ -1,0 +1,181 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Vinícius\Desktop\USP\psi3451\aula 5\sc_2_tb_modif
+T_opt
+VO>S7ROn1Vk?^R5HQS78zX2
+04 17 4 work tb_step_counter_2 test 1
+=1-641c678d78b7-5ea8b130-1e-35b4
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+OL;O;10.1d;51
+Eclock_generator
+Z1 w1553696590
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\Vinícius\Desktop\USP\psi3451\aula 5\sc_2_tb_modif
+Z5 8C:/Users/Vinícius/Desktop/USP/psi3451/aula 5/sc_2_tb_modif/clock_generator.vhd
+Z6 FC:/Users/Vinícius/Desktop/USP/psi3451/aula 5/sc_2_tb_modif/clock_generator.vhd
+l0
+L4
+V3P3mhojPLDXS_RGP:fFDN0
+Z7 OL;C;10.1d;51
+32
+Z8 !s108 1588113691.034000
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/Vinícius/Desktop/USP/psi3451/aula 5/sc_2_tb_modif/clock_generator.vhd|
+Z10 !s107 C:/Users/Vinícius/Desktop/USP/psi3451/aula 5/sc_2_tb_modif/clock_generator.vhd|
+Z11 o-work work
+Z12 tExplicit 1
+!s100 ^PiTE4bZLjdOi^2fic@eO3
+!i10b 1
+Atest
+R2
+R3
+DEx4 work 15 clock_generator 0 22 3P3mhojPLDXS_RGP:fFDN0
+l20
+L18
+VX><FXY_ij:4f8;R?kzOY:3
+R7
+32
+R8
+R9
+R10
+R11
+R12
+!s100 SToQ2c^?6KcNA1jh`6Gi92
+!i10b 1
+Pmy_package
+Z13 w1585340404
+R4
+Z14 8C:/Users/Vinícius/Desktop/USP/psi3451/aula 5/sc_2_tb_modif/step_counter_2.vhd
+Z15 FC:/Users/Vinícius/Desktop/USP/psi3451/aula 5/sc_2_tb_modif/step_counter_2.vhd
+l0
+L14
+V0GEkIG]9TEe86Xj:H6Y6E3
+R7
+32
+Z16 !s108 1588113688.903000
+Z17 !s90 -reportprogress|300|-work|work|C:/Users/Vinícius/Desktop/USP/psi3451/aula 5/sc_2_tb_modif/step_counter_2.vhd|
+Z18 !s107 C:/Users/Vinícius/Desktop/USP/psi3451/aula 5/sc_2_tb_modif/step_counter_2.vhd|
+R11
+R12
+!s100 oi>T[ZBaH^kVaE=C^RE5]1
+!i10b 1
+Estep_counter_2
+R13
+Z19 DPx4 work 10 my_package 0 22 0GEkIG]9TEe86Xj:H6Y6E3
+Z20 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R2
+R3
+R4
+R14
+R15
+l0
+L31
+V=hNG@_4D8Qz`N9z;F?kRC3
+R7
+32
+R16
+R17
+R18
+R11
+R12
+!s100 m08VhKNcUlz<kkFD4SO<?0
+!i10b 1
+Aarch
+R19
+R20
+R2
+R3
+DEx4 work 14 step_counter_2 0 22 =hNG@_4D8Qz`N9z;F?kRC3
+l63
+L51
+V>>Hj1<0VJzY=;LTKHX>h72
+R7
+32
+R16
+R17
+R18
+R11
+R12
+!s100 lfCmMOA;MYo`Q@PDD7HTV2
+!i10b 1
+Estimuli_step_counter_2_modif
+Z21 w1588113376
+R19
+R20
+R2
+R3
+R4
+Z22 8C:/Users/Vinícius/Desktop/USP/psi3451/aula 5/sc_2_tb_modif/stimuli_step_counter_2_modif.vhd
+Z23 FC:/Users/Vinícius/Desktop/USP/psi3451/aula 5/sc_2_tb_modif/stimuli_step_counter_2_modif.vhd
+l0
+L6
+VF;CHK@6kd_`can]Q8n>bc3
+R7
+32
+Z24 !s108 1588113693.085000
+Z25 !s90 -reportprogress|300|-work|work|C:/Users/Vinícius/Desktop/USP/psi3451/aula 5/sc_2_tb_modif/stimuli_step_counter_2_modif.vhd|
+Z26 !s107 C:/Users/Vinícius/Desktop/USP/psi3451/aula 5/sc_2_tb_modif/stimuli_step_counter_2_modif.vhd|
+R11
+R12
+!s100 nF4@:_R9BCWOi0K;3KMSW1
+!i10b 1
+Atest
+R19
+R20
+R2
+R3
+DEx4 work 28 stimuli_step_counter_2_modif 0 22 F;CHK@6kd_`can]Q8n>bc3
+l37
+L23
+VJKF7zMkD5``DP4DH72?dI1
+R7
+32
+R24
+R25
+R26
+R11
+R12
+!s100 @:Yd02hXkRz`:Ia;Nh0:m2
+!i10b 1
+Etb_step_counter_2
+Z27 w1587680555
+R19
+R20
+R2
+R3
+R4
+Z28 8C:/Users/Vinícius/Desktop/USP/psi3451/aula 5/sc_2_tb_modif/tb_step_counter_2_modif.vhd
+Z29 FC:/Users/Vinícius/Desktop/USP/psi3451/aula 5/sc_2_tb_modif/tb_step_counter_2_modif.vhd
+l0
+L7
+VgUgA;7BR=FE3@WUVFB9Lg2
+R7
+32
+Z30 !s108 1588113695.435000
+Z31 !s90 -reportprogress|300|-work|work|C:/Users/Vinícius/Desktop/USP/psi3451/aula 5/sc_2_tb_modif/tb_step_counter_2_modif.vhd|
+Z32 !s107 C:/Users/Vinícius/Desktop/USP/psi3451/aula 5/sc_2_tb_modif/tb_step_counter_2_modif.vhd|
+R11
+R12
+!s100 N1EU6c:ehH99TNSAfYZS33
+!i10b 1
+Atest
+R19
+R20
+R2
+R3
+DEx4 work 17 tb_step_counter_2 0 22 gUgA;7BR=FE3@WUVFB9Lg2
+l55
+L14
+VIZa0P[lQSPF=3h9U1YeGe1
+R7
+32
+R30
+R31
+R32
+R11
+R12
+!s100 0lkR6JOLWQzbB5JTWnb_d3
+!i10b 1

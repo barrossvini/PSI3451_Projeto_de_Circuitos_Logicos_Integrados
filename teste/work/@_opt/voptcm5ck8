@@ -1,0 +1,670 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\USP\PSI3451_wang\teste
+T_opt
+ViJiHd=`;i8QCKDZ?6N[EN2
+04 11 4 work tb_disciple test 1
+=1-641c678d78b7-62d5f35c-1c3-347c
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+OL;O;10.1d;51
+Ealu
+Z1 w1657206754
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\USP\PSI3451_wang\teste
+Z6 8C:/USP/PSI3451_wang/teste/alu.vhd
+Z7 FC:/USP/PSI3451_wang/teste/alu.vhd
+l0
+L24
+VJ3?]<>:Jm:3[R9jEG;@^J0
+Z8 OL;C;10.1d;51
+32
+Z9 !s108 1658188606.900000
+Z10 !s90 -reportprogress|300|-work|work|C:/USP/PSI3451_wang/teste/alu.vhd|
+Z11 !s107 C:/USP/PSI3451_wang/teste/alu.vhd|
+Z12 o-work work
+Z13 tExplicit 1
+!s100 33EM0]BLaiQ2NJEhlX]H=2
+!i10b 1
+Awith_rca
+R2
+R3
+R4
+DEx4 work 3 alu 0 22 J3?]<>:Jm:3[R9jEG;@^J0
+l68
+L41
+VBml:OETDJU`[5efa4aMXP1
+R8
+32
+R9
+R10
+R11
+R12
+R13
+!s100 LCm1nmiGR2bR[j_QVYk;^1
+!i10b 1
+Eclock_generator
+Z14 w1493843984
+R3
+R4
+R5
+Z15 8C:/USP/PSI3451_wang/teste/clock_generator.vhd
+Z16 FC:/USP/PSI3451_wang/teste/clock_generator.vhd
+l0
+L4
+V3P3mhojPLDXS_RGP:fFDN0
+R8
+32
+Z17 !s108 1658188607.347000
+Z18 !s90 -reportprogress|300|-work|work|C:/USP/PSI3451_wang/teste/clock_generator.vhd|
+Z19 !s107 C:/USP/PSI3451_wang/teste/clock_generator.vhd|
+R12
+R13
+!s100 ^PiTE4bZLjdOi^2fic@eO3
+!i10b 1
+Atest
+R3
+R4
+DEx4 work 15 clock_generator 0 22 3P3mhojPLDXS_RGP:fFDN0
+l20
+L18
+VX><FXY_ij:4f8;R?kzOY:3
+R8
+32
+R17
+R18
+R19
+R12
+R13
+!s100 SToQ2c^?6KcNA1jh`6Gi92
+!i10b 1
+Ecode_gen
+Z20 w1590874142
+Z21 DPx4 work 14 wisdom_package 0 22 o1Na?QHW8:LYlEQJ_YV9F0
+R3
+R4
+R5
+Z22 8C:/USP/PSI3451_wang/teste/code_gen.vhd
+Z23 FC:/USP/PSI3451_wang/teste/code_gen.vhd
+l0
+L17
+V6Qm?7>FzaC^6YbZj0@oJf1
+R8
+32
+Z24 !s108 1658188607.805000
+Z25 !s90 -reportprogress|300|-work|work|C:/USP/PSI3451_wang/teste/code_gen.vhd|
+Z26 !s107 C:/USP/PSI3451_wang/teste/code_gen.vhd|
+R12
+R13
+!s100 9Y^gf6L0V0NYPK018<hF52
+!i10b 1
+Aarch
+R21
+R3
+R4
+DEx4 work 8 code_gen 0 22 6Qm?7>FzaC^6YbZj0@oJf1
+l40
+L26
+V5EIzkAzbB3jclnOAkb^EM3
+R8
+32
+R24
+R25
+R26
+R12
+R13
+!s100 NAAGW8PV>h@hz7C[[24Pn1
+!i10b 1
+Ecoll_ovf_disc
+Z27 w1658172049
+R21
+R3
+R4
+R5
+Z28 8C:/USP/PSI3451_wang/teste/coll_ovf_disc.vhd
+Z29 FC:/USP/PSI3451_wang/teste/coll_ovf_disc.vhd
+l0
+L5
+Va]8kM6b@GdeK`Iai<GdXf1
+R8
+32
+Z30 !s108 1658188608.232000
+Z31 !s90 -reportprogress|300|-work|work|C:/USP/PSI3451_wang/teste/coll_ovf_disc.vhd|
+Z32 !s107 C:/USP/PSI3451_wang/teste/coll_ovf_disc.vhd|
+R12
+R13
+!s100 kRXT6Z6GLUljo@4eLb3M]3
+!i10b 1
+Aarch
+R21
+R3
+R4
+DEx4 work 13 coll_ovf_disc 0 22 a]8kM6b@GdeK`Iai<GdXf1
+l27
+L16
+VNDdnAiIPG>XX`f1zXjk;Y3
+R8
+32
+R30
+R31
+R32
+R12
+R13
+!s100 akf@gJLQIK@9Z7z0N98__1
+!i10b 1
+Ed_reg
+Z33 w1655239754
+R2
+R3
+R4
+R5
+Z34 8C:/USP/PSI3451_wang/teste/d_reg.vhd
+Z35 FC:/USP/PSI3451_wang/teste/d_reg.vhd
+l0
+L6
+Vhhmfgh_0TTmh5oUl?YikO0
+R8
+32
+Z36 !s108 1658188608.678000
+Z37 !s90 -reportprogress|300|-work|work|C:/USP/PSI3451_wang/teste/d_reg.vhd|
+Z38 !s107 C:/USP/PSI3451_wang/teste/d_reg.vhd|
+R12
+R13
+!s100 J^<9g6JkQL8ie0UHiGLS21
+!i10b 1
+Aarch
+R2
+R3
+R4
+DEx4 work 5 d_reg 0 22 hhmfgh_0TTmh5oUl?YikO0
+l23
+L19
+V^=ZQnGdTm@B3aUXd64UE:2
+R8
+32
+R36
+R37
+R38
+R12
+R13
+!s100 P@3MNL?domaEAWRO:oY960
+!i10b 1
+Edisc_datapath
+Z39 w1658172082
+R21
+R3
+R4
+R5
+Z40 8C:/USP/PSI3451_wang/teste/disc_datapath.vhd
+Z41 FC:/USP/PSI3451_wang/teste/disc_datapath.vhd
+l0
+L5
+VK@3_<]956IC2IOPe7kDEo2
+R8
+32
+Z42 !s108 1658188609.117000
+Z43 !s90 -reportprogress|300|-work|work|C:/USP/PSI3451_wang/teste/disc_datapath.vhd|
+Z44 !s107 C:/USP/PSI3451_wang/teste/disc_datapath.vhd|
+R12
+R13
+!s100 jfJzd;JfEl1fXnjkm=?9W0
+!i10b 1
+Aarch
+R21
+R3
+R4
+DEx4 work 13 disc_datapath 0 22 K@3_<]956IC2IOPe7kDEo2
+l117
+L32
+VSz8khm9TVlzS@_IdhClSM3
+R8
+32
+R42
+R43
+R44
+R12
+R13
+!s100 >WlMdG5HUG?>XIXmeT^H32
+!i10b 1
+Edisciple_circuit
+Z45 w1657220640
+R21
+Z46 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z47 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+R3
+R4
+R5
+Z48 8C:/USP/PSI3451_wang/teste/disciple_circuit.vhd
+Z49 FC:/USP/PSI3451_wang/teste/disciple_circuit.vhd
+l0
+L7
+VQUT5eDee8E1[aJCWIm=9R1
+R8
+32
+Z50 !s108 1658188609.432000
+Z51 !s90 -reportprogress|300|-work|work|C:/USP/PSI3451_wang/teste/disciple_circuit.vhd|
+Z52 !s107 C:/USP/PSI3451_wang/teste/disciple_circuit.vhd|
+R12
+R13
+!s100 ]1>9VBY3DcjTS0POzATB]0
+!i10b 1
+Aarch
+R21
+R46
+R47
+R3
+R4
+DEx4 work 16 disciple_circuit 0 22 QUT5eDee8E1[aJCWIm=9R1
+l99
+L29
+Vg:]WVLaG?^d;lUEbY;][m2
+R8
+32
+R50
+R51
+R52
+R12
+R13
+!s100 `NHP]kW5aXCN?::lO`N0<1
+!i10b 1
+Efsm_disc
+Z53 w1658173981
+R21
+R2
+R3
+R4
+R5
+Z54 8C:/USP/PSI3451_wang/teste/fsm_disc.vhd
+Z55 FC:/USP/PSI3451_wang/teste/fsm_disc.vhd
+l0
+L8
+VGjm;ET]imFE60O@ll4SZ[1
+R8
+32
+Z56 !s108 1658188609.778000
+Z57 !s90 -reportprogress|300|-work|work|C:/USP/PSI3451_wang/teste/fsm_disc.vhd|
+Z58 !s107 C:/USP/PSI3451_wang/teste/fsm_disc.vhd|
+R12
+R13
+!s100 U@DT@MYL@fcz`Wg5N]6S>0
+!i10b 1
+Aarch
+R21
+R2
+R3
+R4
+DEx4 work 8 fsm_disc 0 22 Gjm;ET]imFE60O@ll4SZ[1
+l33
+L29
+V9o:YgVfIAi2Zm>kDP0JQ`0
+R8
+32
+R56
+R57
+R58
+R12
+R13
+!s100 3ik=e3B_4PNPzcK;[Rfk>0
+!i10b 1
+Efull_adder_1
+R20
+R3
+R4
+R5
+Z59 8C:/USP/PSI3451_wang/teste/full_adder.vhd
+Z60 FC:/USP/PSI3451_wang/teste/full_adder.vhd
+l0
+L4
+VP@450UkNm[lKo;WH8h6ZC0
+R8
+32
+Z61 !s108 1658188610.211000
+Z62 !s90 -reportprogress|300|-work|work|C:/USP/PSI3451_wang/teste/full_adder.vhd|
+Z63 !s107 C:/USP/PSI3451_wang/teste/full_adder.vhd|
+R12
+R13
+!s100 62WNf6j:F4MPJW_[Nl^1e0
+!i10b 1
+Adataflow
+R3
+R4
+DEx4 work 12 full_adder_1 0 22 P@450UkNm[lKo;WH8h6ZC0
+l19
+L15
+VnmVQTefem0R_A8cVRUEZk0
+R8
+32
+R61
+R62
+R63
+R12
+R13
+!s100 PjLQ5L1`D>j3[McCzCGR71
+!i10b 1
+Elfsr
+Z64 w1655735892
+R2
+R3
+R4
+R5
+Z65 8C:/USP/PSI3451_wang/teste/lfsr.vhd
+Z66 FC:/USP/PSI3451_wang/teste/lfsr.vhd
+l0
+L6
+V9?>DK<ea[So^9fX7IV^Q`0
+R8
+32
+Z67 !s108 1658188610.642000
+Z68 !s90 -reportprogress|300|-work|work|C:/USP/PSI3451_wang/teste/lfsr.vhd|
+Z69 !s107 C:/USP/PSI3451_wang/teste/lfsr.vhd|
+R12
+R13
+!s100 Pc=>=ZeaTWzTimDTknGg_2
+!i10b 1
+Aestrutural
+R2
+R3
+R4
+DEx4 work 4 lfsr 0 22 9?>DK<ea[So^9fX7IV^Q`0
+l31
+L16
+V?T3QE9J1TfY_V?52mS2?S2
+R8
+32
+R67
+R68
+R69
+R12
+R13
+!s100 DhE^Y2h;ZK>8R^9]307OO3
+!i10b 1
+Enum_gen_disc
+Z70 w1658185091
+R2
+R3
+R4
+R21
+R5
+Z71 8C:/USP/PSI3451_wang/teste/num_gen_disc.vhd
+Z72 FC:/USP/PSI3451_wang/teste/num_gen_disc.vhd
+l0
+L7
+VRHcfoebG^;9P[[]4lTjiD1
+R8
+32
+Z73 !s108 1658188611.077000
+Z74 !s90 -reportprogress|300|-work|work|C:/USP/PSI3451_wang/teste/num_gen_disc.vhd|
+Z75 !s107 C:/USP/PSI3451_wang/teste/num_gen_disc.vhd|
+R12
+R13
+!s100 8=`SdLa@`bXANKUSNkja@2
+!i10b 1
+Aarch
+R2
+R3
+R4
+R21
+DEx4 work 12 num_gen_disc 0 22 RHcfoebG^;9P[[]4lTjiD1
+l46
+L22
+VK6`g9KD6e;W62TfK>N0T50
+R8
+32
+R73
+R74
+R75
+R12
+R13
+!s100 j1c=E7Cj]m@`nRP8QJ`Q>2
+!i10b 1
+Erand_num_disc
+Z76 w1658187245
+R2
+R3
+R4
+R5
+Z77 8C:/USP/PSI3451_wang/teste/rand_num_disc.vhd
+Z78 FC:/USP/PSI3451_wang/teste/rand_num_disc.vhd
+l0
+L6
+VGW3T>:1_BDFkKBHg7SabK2
+R8
+32
+Z79 !s108 1658188611.542000
+Z80 !s90 -reportprogress|300|-work|work|C:/USP/PSI3451_wang/teste/rand_num_disc.vhd|
+Z81 !s107 C:/USP/PSI3451_wang/teste/rand_num_disc.vhd|
+R12
+R13
+!s100 CfRSeaC=Uf^i<5SM^:L]U0
+!i10b 1
+Astructural
+R2
+R3
+R4
+DEx4 work 13 rand_num_disc 0 22 GW3T>:1_BDFkKBHg7SabK2
+l33
+L19
+VO77cK>^eiHA2SVJ0m15eL0
+R8
+32
+R79
+R80
+R81
+R12
+R13
+!s100 5WM:><fAK91kCSnn][8=g3
+!i10b 1
+Erc_adder
+R20
+R3
+R4
+R5
+Z82 8C:/USP/PSI3451_wang/teste/rc_adder.vhd
+Z83 FC:/USP/PSI3451_wang/teste/rc_adder.vhd
+l0
+L4
+VY[Qd;M2ILRXT3J7f>B4`n1
+R8
+32
+Z84 !s108 1658188611.974000
+Z85 !s90 -reportprogress|300|-work|work|C:/USP/PSI3451_wang/teste/rc_adder.vhd|
+Z86 !s107 C:/USP/PSI3451_wang/teste/rc_adder.vhd|
+R12
+R13
+!s100 [0eQnGGAj>zm7JJ7ODDod3
+!i10b 1
+Astructural
+R3
+R4
+DEx4 work 8 rc_adder 0 22 Y[Qd;M2ILRXT3J7f>B4`n1
+l36
+L20
+VXD[SP@K^h?3<i1TWH^1cn1
+R8
+32
+R84
+R85
+R86
+R12
+R13
+!s100 L6T^1n8SbQCXgNT>Fz5>[1
+!i10b 1
+Ereg
+R20
+R2
+R3
+R4
+R5
+Z87 8C:/USP/PSI3451_wang/teste/reg.vhd
+Z88 FC:/USP/PSI3451_wang/teste/reg.vhd
+l0
+L6
+Vo:TTKZR5K6`IE[KD6:SN10
+R8
+32
+Z89 !s108 1658188612.300000
+Z90 !s90 -reportprogress|300|-work|work|C:/USP/PSI3451_wang/teste/reg.vhd|
+Z91 !s107 C:/USP/PSI3451_wang/teste/reg.vhd|
+R12
+R13
+!s100 7J63L[?T0H_[z>3z>P_DC0
+!i10b 1
+Aarch
+R2
+R3
+R4
+DEx4 work 3 reg 0 22 o:TTKZR5K6`IE[KD6:SN10
+l26
+L22
+VmnTDKJGb25K_CoWn]ST5X1
+R8
+32
+R89
+R90
+R91
+R12
+R13
+!s100 ;EF9G^XVi9E7@08hU6P5U3
+!i10b 1
+Ereg_bank_disc
+Z92 w1657218505
+R21
+R3
+R4
+R5
+Z93 8C:/USP/PSI3451_wang/teste/reg_bank_disc.vhd
+Z94 FC:/USP/PSI3451_wang/teste/reg_bank_disc.vhd
+l0
+L6
+VlK12Q0TH@aHdezHNoD@5D1
+R8
+32
+Z95 !s108 1658188612.878000
+Z96 !s90 -reportprogress|300|-work|work|C:/USP/PSI3451_wang/teste/reg_bank_disc.vhd|
+Z97 !s107 C:/USP/PSI3451_wang/teste/reg_bank_disc.vhd|
+R12
+R13
+!s100 hU4lW_]cVWF0LJgI3feI32
+!i10b 1
+Aarch
+R21
+R3
+R4
+DEx4 work 13 reg_bank_disc 0 22 lK12Q0TH@aHdezHNoD@5D1
+l61
+L27
+VX1JHeiMn;j8iXZ4m1]oAU3
+R8
+32
+R95
+R96
+R97
+R12
+R13
+!s100 ]Ri>CoMMRXSU3[@GMV^232
+!i10b 1
+Estimuli_disciple
+Z98 w1626213034
+R21
+Z99 DPx4 ieee 16 std_logic_textio 0 22 ?Il0a149GV276[?[UMDWh2
+R2
+R3
+R4
+R5
+Z100 8C:/USP/PSI3451_wang/teste/stimuli_disciple.vhd
+Z101 FC:/USP/PSI3451_wang/teste/stimuli_disciple.vhd
+l0
+L8
+VBXb=g;A5ObhXIPb^US@_K0
+R8
+32
+Z102 !s108 1658188613.179000
+Z103 !s90 -reportprogress|300|-work|work|C:/USP/PSI3451_wang/teste/stimuli_disciple.vhd|
+Z104 !s107 C:/USP/PSI3451_wang/teste/stimuli_disciple.vhd|
+R12
+R13
+!s100 c@idZK:z>eEo_LA?AF8HR3
+!i10b 1
+Atest
+R21
+R99
+R2
+R3
+R4
+DEx4 work 16 stimuli_disciple 0 22 BXb=g;A5ObhXIPb^US@_K0
+l66
+L34
+VGY9cGN1mZcoP;m2QF@Hnj1
+R8
+32
+R102
+R103
+R104
+R12
+R13
+!s100 iJT2Ice?Jk__2:U1Ba>m;0
+!i10b 1
+Etb_disciple
+Z105 w1658168144
+R99
+R21
+R2
+R3
+R4
+R5
+Z106 8C:/USP/PSI3451_wang/teste/tb_disciple.vhd
+Z107 FC:/USP/PSI3451_wang/teste/tb_disciple.vhd
+l0
+L8
+VELb_G]ICZom@>5@;SVOcS2
+R8
+32
+Z108 !s108 1658188613.635000
+Z109 !s90 -reportprogress|30|-work|work|C:/USP/PSI3451_wang/teste/tb_disciple.vhd|
+Z110 !s107 C:/USP/PSI3451_wang/teste/tb_disciple.vhd|
+R12
+R13
+!s100 flOb5f5I:F]MW[7Z`1BON2
+!i10b 1
+Atest
+R99
+R21
+R2
+R3
+R4
+DEx4 work 11 tb_disciple 0 22 ELb_G]ICZom@>5@;SVOcS2
+l149
+L14
+VSolHK>fR?R<Nd[6[bTKRP1
+R8
+32
+R108
+R109
+R110
+R12
+R13
+!s100 j:Xh30]H7LFdH<b;R5QOW3
+!i10b 1
+Pwisdom_package
+R3
+R4
+w1655957474
+R5
+8C:/USP/PSI3451_wang/teste/wisdom_package.vhd
+FC:/USP/PSI3451_wang/teste/wisdom_package.vhd
+l0
+L4
+Vo1Na?QHW8:LYlEQJ_YV9F0
+R8
+32
+R12
+R13
+!s100 b?b3Y96?;I=RGZ;6JZQJm2
+!i10b 1
+!s108 1658188614.075000
+!s90 -reportprogress|30|-work|work|C:/USP/PSI3451_wang/teste/wisdom_package.vhd|
+!s107 C:/USP/PSI3451_wang/teste/wisdom_package.vhd|

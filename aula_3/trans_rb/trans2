@@ -1,0 +1,7 @@
+
+force out_sel GURU_OUT
+run 100ns
+force out_sel INIT_OUT
+run 100ns
+
+

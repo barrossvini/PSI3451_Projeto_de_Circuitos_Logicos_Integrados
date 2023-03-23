@@ -1,0 +1,153 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Vinícius\Desktop\USP\PSI3451_wang\aula_2\fa_2m
+T_opt
+V3CgT<VSINTo^agL>>=zSU0
+04 12 10 work full_adder_2 structural 1
+=1-641c678d78b7-6245ce2b-2c7-528
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+OL;O;10.1d;51
+Z1 dC:\Users\Vinícius\Desktop\USP\PSI3451_wang\aula_2\fa_2m
+Eand2
+Z2 w1648741861
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+R1
+Z5 8C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_2/fa_2m/full_adder_2m.vhd
+Z6 FC:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_2/fa_2m/full_adder_2m.vhd
+l0
+L51
+V4@S9BeI<SzhZ8C]M?180_2
+!s100 GCkAoiKdSm83Hb`XTI_F=2
+Z7 OL;C;10.1d;51
+32
+!i10b 1
+Z8 !s108 1648751293.492000
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_2/fa_2m/full_adder_2m.vhd|
+Z10 !s107 C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_2/fa_2m/full_adder_2m.vhd|
+Z11 o-work work
+Z12 tExplicit 1
+Adataflow
+R3
+R4
+Z13 DEx4 work 4 and2 0 22 4@S9BeI<SzhZ8C]M?180_2
+l59
+L57
+Z14 VkjC7MCBYFYcT^Lm?j20FV0
+Z15 !s100 LezFS5BUPHeWdJLLcSA?63
+R7
+32
+!i10b 1
+R8
+R9
+R10
+R11
+R12
+Efull_adder_2
+R2
+R3
+R4
+R1
+R5
+R6
+l0
+L4
+VIRQjS@2njmzj^1BGLSh@B2
+!s100 l7j>oLB]U:9D;4WDZ6FUB0
+R7
+32
+!i10b 1
+R8
+R9
+R10
+R11
+R12
+Astructural
+R3
+R4
+Z16 DEx4 work 12 full_adder_2 0 22 IRQjS@2njmzj^1BGLSh@B2
+l36
+L14
+Z17 V=jD25M]UY:W=o1iLUPj<>3
+Z18 !s100 cPDmFelfPBM`4J4D:=7UG3
+R7
+32
+!i10b 1
+R8
+R9
+R10
+R11
+R12
+Eor3
+R2
+R3
+R4
+R1
+R5
+R6
+l0
+L81
+V9_V9g:k=zOC8>fg02JA8m1
+!s100 XidhVKjJB80W6g@4=LdTC2
+R7
+32
+!i10b 1
+R8
+R9
+R10
+R11
+R12
+Adataflow
+R3
+R4
+Z19 DEx4 work 3 or3 0 22 9_V9g:k=zOC8>fg02JA8m1
+l89
+L87
+Z20 VBjmFgbz@_W4Mm^IF=kL[d0
+Z21 !s100 272^SkECNZn^JCg9SGX2=0
+R7
+32
+!i10b 1
+R8
+R9
+R10
+R11
+R12
+Exor2
+R2
+R3
+R4
+R1
+R5
+R6
+l0
+L66
+VQbb5><CMR9g]2UUcn3T:Z3
+!s100 Ph2O3nFj_TQ_FLWUM4eEo0
+R7
+32
+!i10b 1
+R8
+R9
+R10
+R11
+R12
+Adataflow
+R3
+R4
+Z22 DEx4 work 4 xor2 0 22 Qbb5><CMR9g]2UUcn3T:Z3
+l74
+L72
+Z23 VAZM:@]aD=A8zKoePTjWc21
+Z24 !s100 KV02Ko`6z<d3Jba8MjRcY0
+R7
+32
+!i10b 1
+R8
+R9
+R10
+R11
+R12

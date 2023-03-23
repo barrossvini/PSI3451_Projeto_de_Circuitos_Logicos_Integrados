@@ -1,0 +1,158 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Vinícius\Desktop\USP\PSI3451_wang\aula_7\mem_2port\simulation\modelsim
+T_opt
+VKVcOC]`OYA6WW]dYTU^iW0
+04 12 4 work tb_mem_2port test 1
+=1-641c678d78b7-62868216-3a4-1208
+o-quiet -auto_acc_if_foreign -work work -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work +acc
+n@_opt
+OL;O;10.1d;51
+Eclock_generator
+Z1 w1493843984
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\Vinícius\Desktop\USP\PSI3451_wang\aula_7\mem_2port\simulation\modelsim
+Z5 8C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_7/mem_2port/clock_generator.vhd
+Z6 FC:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_7/mem_2port/clock_generator.vhd
+l0
+L4
+VoX5Mh8KXaC?2cSPab2?if1
+Z7 OL;C;10.1d;51
+31
+Z8 !s108 1652982292.246000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_7/mem_2port/clock_generator.vhd|
+Z10 !s107 C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_7/mem_2port/clock_generator.vhd|
+Z11 o-93 -work work
+Z12 tExplicit 1
+!s100 ^PiTE4bZLjdOi^2fic@eO3
+!i10b 1
+Atest
+R2
+R3
+DEx4 work 15 clock_generator 0 22 oX5Mh8KXaC?2cSPab2?if1
+l20
+L18
+V]oYmBYiUSWQiEmoM3ezXN3
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 SToQ2c^?6KcNA1jh`6Gi92
+!i10b 1
+Emem_2port
+Z13 w1652981040
+Z14 DPx9 altera_mf 20 altera_mf_components 0 22 C<>[5L^BLdOh3TJzQ];RG3
+R2
+R3
+R4
+Z15 8C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_7/mem_2port/mem_2port.vhd
+Z16 FC:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_7/mem_2port/mem_2port.vhd
+l0
+L42
+V;Pe6ZhIIm;UzSE3N3B?@O2
+R7
+31
+Z17 !s108 1652982293.334000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_7/mem_2port/mem_2port.vhd|
+Z19 !s107 C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_7/mem_2port/mem_2port.vhd|
+R11
+R12
+!s100 B[YbhoAg`lAV>7zF2XgLb1
+!i10b 1
+Asyn
+R14
+R2
+R3
+DEx4 work 9 mem_2port 0 22 ;Pe6ZhIIm;UzSE3N3B?@O2
+l63
+L58
+Vgi48STZMN:DKhE4[>V16^1
+!s100 l^kGi`5KmZK0ZC4EjJS9C0
+R7
+31
+R17
+R18
+R19
+R11
+R12
+!i10b 1
+Estimuli_mem_2port
+Z20 w1652982152
+Z21 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R2
+R3
+R4
+Z22 8C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_7/mem_2port/stimuli_mem_2port.vhd
+Z23 FC:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_7/mem_2port/stimuli_mem_2port.vhd
+l0
+L6
+V1V;VMf2ZMcEk8d1o_aDFZ0
+R7
+31
+Z24 !s108 1652982292.832000
+Z25 !s90 -reportprogress|300|-93|-work|work|C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_7/mem_2port/stimuli_mem_2port.vhd|
+Z26 !s107 C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_7/mem_2port/stimuli_mem_2port.vhd|
+R11
+R12
+!s100 _OldZ62MM>nFamhzJX[>H0
+!i10b 1
+Atest
+R21
+R2
+R3
+DEx4 work 17 stimuli_mem_2port 0 22 1V;VMf2ZMcEk8d1o_aDFZ0
+l42
+L28
+Vjf[:MZM2<>ik;Ib4Y>BHX3
+R7
+31
+R24
+R25
+R26
+R11
+R12
+!s100 eo6<<iggBZfM]MCi1N;S72
+!i10b 1
+Etb_mem_2port
+Z27 w1622502838
+R21
+R2
+R3
+R4
+Z28 8C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_7/mem_2port/testbench_mem_2port.vhd
+Z29 FC:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_7/mem_2port/testbench_mem_2port.vhd
+l0
+L6
+V1?:1O0VnL@AV[SZHzEbJC2
+R7
+31
+Z30 !s108 1652982291.818000
+Z31 !s90 -reportprogress|300|-93|-work|work|C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_7/mem_2port/testbench_mem_2port.vhd|
+Z32 !s107 C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_7/mem_2port/testbench_mem_2port.vhd|
+R11
+R12
+!s100 _zX`YG]k3:nNb<@`H3iDH0
+!i10b 1
+Atest
+R21
+R2
+R3
+DEx4 work 12 tb_mem_2port 0 22 1?:1O0VnL@AV[SZHzEbJC2
+l58
+L12
+VXbib>1K6eM<RR>Sk^[LhX0
+R7
+31
+R30
+R31
+R32
+R11
+R12
+!s100 3=j=FLMM@iPRkdhPN5`;^0
+!i10b 1

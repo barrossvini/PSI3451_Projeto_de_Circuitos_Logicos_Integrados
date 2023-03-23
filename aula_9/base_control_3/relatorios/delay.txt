@@ -1,0 +1,61 @@
+
+
+
+                        Clock Frequency Report
+
+	Clock                : Frequency
+      ------------------------------------
+
+	clk                  : 325.5 MHz
+
+
+                        Critical Path Report
+
+
+Critical path #1, (path slack =  0.3):
+
+NAME                                               GATE              ARRIVAL              LOAD
+----------------------------------------------------------------------------------------------
+clock information not specified
+delay thru clock network                                             0.00 (worst case)
+
+
+cnt_strat/reg_cnt_s(27)/Q                          dff         0.00  0.72 dn             0.09
+cnt_strat/cnt_s(27)                       (net)                0.00  0.72 dn   (fan)     7.00
+cnt_strat/ix613/A0                                 nor04       0.00  0.72 dn             0.00
+cnt_strat/ix613/Y                                  nor04       0.30  1.02 up             0.01
+cnt_strat/nx612                           (net)                0.00  1.02 up   (fan)     1.00
+cnt_strat/ix551/A1                                 nand04      0.00  1.02 up             0.00
+cnt_strat/ix551/Y                                  nand04      0.13  1.14 dn             0.01
+cnt_strat/nx550                           (net)                0.00  1.14 dn   (fan)     1.00
+cnt_strat/ix699/A0                                 nor04       0.00  1.14 dn             0.00
+cnt_strat/ix699/Y                                  nor04       0.36  1.50 up             0.02
+cnt_start_f_s                             (net)                0.00  1.50 up   (fan)     3.00
+cnt_strat/ix790/A0                                 nor02       0.00  1.50 up             0.00
+cnt_strat/ix790/Y                                  nor02       0.27  1.77 dn             0.04
+cnt_strat/nx789                           (net)                0.00  1.77 dn   (fan)     4.00
+cnt_strat/ix21/A                                   inv01       0.00  1.77 dn             0.00
+cnt_strat/ix21/Y                                   inv01       0.32  2.09 up             0.05
+cnt_strat/nx500                           (net)                0.00  2.09 up   (fan)     7.00
+cnt_strat/ix895/A                                  inv01       0.00  2.09 up             0.00
+cnt_strat/ix895/Y                                  inv01       0.29  2.38 dn             0.06
+cnt_strat/nx896                           (net)                0.00  2.38 dn   (fan)     6.00
+cnt_strat/ix851/A                                  inv01       0.00  2.38 dn             0.00
+cnt_strat/ix851/Y                                  inv01       0.25  2.63 up             0.04
+cnt_strat/nx852                           (net)                0.00  2.63 up   (fan)     3.00
+cnt_strat/ix277/A2                                 nor03       0.00  2.63 up             0.00
+cnt_strat/ix277/Y                                  nor03       0.14  2.77 dn             0.02
+cnt_strat/nx276                           (net)                0.00  2.77 dn   (fan)     1.00
+cnt_strat/reg_cnt_s(14)/D                          dff         0.00  2.77 dn             0.00
+data arrival time                                                    2.77
+
+
+data required time  (default specified - setup time)                  3.03
+----------------------------------------------------------------------------------------------
+data required time                                                   3.03
+data arrival time                                                    2.77
+                                                                  ----------
+slack                                                               0.26
+----------------------------------------------------------------------------------------------
+
+

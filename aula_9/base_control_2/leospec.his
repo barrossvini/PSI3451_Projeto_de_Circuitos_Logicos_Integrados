@@ -1,0 +1,18 @@
+#
+#
+# 
+# 06/02/22 11:37:52
+set_working_dir C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_9/base_control_4
+load_library tsmc035_typ
+set_working_dir C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_9/base_control_2
+read -technology "tsmc035_typ"  { C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_9/base_control_2/fonte/wisdom_package.vhd C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_9/base_control_2/fonte/counter_trigger.vhd C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_9/base_control_2/fonte/fsm_guru.vhd C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_9/base_control_2/fonte/fsm_init.vhd C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_9/base_control_2/fonte/fsm_main.vhd C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_9/base_control_2/fonte/base_control.vhd }
+pre_optimize -common_logic -unused_logic -boundary -xor_comparator_optimize 
+pre_optimize -extract 
+set register2register 5.000000
+set input2register 5.000000
+set register2output 5.000000
+optimize .work.base_control.arch -target tsmc035_typ -macro -auto -effort standard -hierarchy auto 
+optimize_timing .work.base_control.arch 
+report_area area2 -cell_usage -hierarchy -all_leafs 
+set propagate_clock_delay TRUE
+report_delay delay2 -num_paths 1 -critical_paths -show_nets -show_input_pins -clock_frequency

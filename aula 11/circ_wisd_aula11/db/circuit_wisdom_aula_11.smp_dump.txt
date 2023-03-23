@@ -1,0 +1,35 @@
+
+State Machine - |circuit_wisdom_aula_11|base_circuit:base|base_control:control|fsm_guru:guru|STATE
+Name STATE.CLEAR_PREV STATE.LAST STATE.CHECK_LAST STATE.WRITE_GURU STATE.WRITE_DUO STATE.CHECK_SAME_ADDR STATE.INCR STATE.WAIT_COUNT_GURU STATE.WRITE_RAND STATE.RAND STATE.START_WALKING 
+STATE.START_WALKING 0 0 0 0 0 0 0 0 0 0 0 
+STATE.RAND 0 0 0 0 0 0 0 0 0 1 1 
+STATE.WRITE_RAND 0 0 0 0 0 0 0 0 1 0 1 
+STATE.WAIT_COUNT_GURU 0 0 0 0 0 0 0 1 0 0 1 
+STATE.INCR 0 0 0 0 0 0 1 0 0 0 1 
+STATE.CHECK_SAME_ADDR 0 0 0 0 0 1 0 0 0 0 1 
+STATE.WRITE_DUO 0 0 0 0 1 0 0 0 0 0 1 
+STATE.WRITE_GURU 0 0 0 1 0 0 0 0 0 0 1 
+STATE.CHECK_LAST 0 0 1 0 0 0 0 0 0 0 1 
+STATE.LAST 0 1 0 0 0 0 0 0 0 0 1 
+STATE.CLEAR_PREV 1 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |circuit_wisdom_aula_11|base_circuit:base|base_control:control|fsm_init:init|STATE
+Name STATE.DONE STATE.MEM_WALK STATE.ZERO STATE.IDLE 
+STATE.IDLE 0 0 0 0 
+STATE.ZERO 0 0 1 1 
+STATE.MEM_WALK 0 1 0 1 
+STATE.DONE 1 0 0 1 
+
+State Machine - |circuit_wisdom_aula_11|base_circuit:base|base_control:control|fsm_main:main|STATE
+Name STATE.HIT_POINT STATE.CHECK_END STATE.STEP_ACTIVATION STATE.INIT_ACTIVATION 
+STATE.INIT_ACTIVATION 0 0 0 0 
+STATE.STEP_ACTIVATION 0 0 1 1 
+STATE.CHECK_END 0 1 0 1 
+STATE.HIT_POINT 1 0 0 1 
+
+State Machine - |circuit_wisdom_aula_11|button_handler:button|speed_sync_s
+Name speed_sync_s.EIGHT_X speed_sync_s.FOUR_X speed_sync_s.TWO_X speed_sync_s.ONE_X 
+speed_sync_s.ONE_X 0 0 0 0 
+speed_sync_s.TWO_X 0 0 1 1 
+speed_sync_s.FOUR_X 0 1 0 1 
+speed_sync_s.EIGHT_X 1 0 0 1 

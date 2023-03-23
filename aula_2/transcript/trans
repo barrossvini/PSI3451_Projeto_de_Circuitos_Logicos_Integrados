@@ -1,0 +1,36 @@
+
+
+force a_in 0
+force b_in 0
+force c_in 0
+run 100ns
+force a_in 1
+force b_in 0
+force c_in 0
+run 100ns
+force a_in 0
+force b_in 1
+force c_in 0
+run 100ns
+force a_in 0
+force b_in 0
+force c_in 1
+run 100ns
+force a_in 1
+force b_in 1
+force c_in 0
+run 100ns
+force a_in 0
+force b_in 1
+force c_in 1
+run 100ns
+force a_in 1
+force b_in 0
+force c_in 1
+run 100ns
+force a_in 1
+force b_in 1
+force c_in 1
+run 100ns
+
+

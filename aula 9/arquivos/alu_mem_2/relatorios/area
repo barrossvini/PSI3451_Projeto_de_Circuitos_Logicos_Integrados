@@ -1,0 +1,38 @@
+
+*******************************************************
+
+Cell: alu_mem    View: add_mux    Library: work
+
+*******************************************************
+
+
+ Cell       Library  References     Total Area
+
+aoi21       tsmc035_typ     4 x      1      5 gates
+aoi22       tsmc035_typ     4 x      1      6 gates
+buf02       tsmc035_typ   109 x      1    111 gates
+dff         tsmc035_typ   512 x      5   2452 gates
+inv01       tsmc035_typ    36 x      1     27 gates
+inv02       tsmc035_typ   115 x      1     87 gates
+inv04       tsmc035_typ     3 x      1      3 gates
+mux21       tsmc035_typ   514 x      2    941 gates
+nand02      tsmc035_typ   108 x      1    108 gates
+nand03      tsmc035_typ    52 x      1     64 gates
+nand04      tsmc035_typ    53 x      1     78 gates
+nor02_2x    tsmc035_typ   232 x      1    232 gates
+nor02ii     tsmc035_typ     4 x      1      5 gates
+nor03_2x    tsmc035_typ    96 x      1    119 gates
+nor04       tsmc035_typ    34 x      1     50 gates
+oai21       tsmc035_typ    19 x      1     24 gates
+oai22       tsmc035_typ   202 x      1    299 gates
+oai33       tsmc035_typ     8 x      2     16 gates
+xnor2       tsmc035_typ     2 x      2      4 gates
+
+ Number of ports :                      69
+ Number of nets :                     2159
+ Number of instances :                2107
+ Number of references to this view :     0
+
+Total accumulated area : 
+ Number of gates :                    4633
+ Number of accumulated instances :    2107

@@ -1,0 +1,193 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Vinícius\Desktop\USP\PSI3451_wang\aula_5\alu_1
+T_opt
+V;RPI=kXj8Ykg?K9M?=j6E0
+04 6 4 work tb_alu test 1
+=1-641c678d78b7-62741366-0-1b00
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+OL;O;10.1d;51
+Ealu
+Z1 w1651773855
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\Users\Vinícius\Desktop\USP\PSI3451_wang\aula_5\alu_1
+Z6 8C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_5/alu_1/alu_1.vhd
+Z7 FC:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_5/alu_1/alu_1.vhd
+l0
+L24
+VJ3?]<>:Jm:3[R9jEG;@^J0
+Z8 OL;C;10.1d;51
+32
+Z9 !s108 1651774231.039000
+Z10 !s90 -reportprogress|300|-work|work|C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_5/alu_1/alu_1.vhd|
+Z11 !s107 C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_5/alu_1/alu_1.vhd|
+Z12 o-work work
+Z13 tExplicit 1
+!s100 33EM0]BLaiQ2NJEhlX]H=2
+!i10b 1
+Awith_rca
+R2
+R3
+R4
+DEx4 work 3 alu 0 22 J3?]<>:Jm:3[R9jEG;@^J0
+l68
+L41
+VR9ZPP^@2gX`=HJ`C;[RLG1
+R8
+32
+R9
+R10
+R11
+R12
+R13
+!s100 :UOD>iVQMAgnAAgGc6NNH3
+!i10b 1
+Efull_adder_1
+R1
+R3
+R4
+R5
+R6
+R7
+l0
+L170
+VP@450UkNm[lKo;WH8h6ZC0
+R8
+32
+R9
+R10
+R11
+R12
+R13
+!s100 B7Y5CnAl_3E<f5O?iH:?=0
+!i10b 1
+Adataflow
+R3
+R4
+DEx4 work 12 full_adder_1 0 22 P@450UkNm[lKo;WH8h6ZC0
+l185
+L181
+V89I@zlFj>7Z`_8;al1E4@3
+R8
+32
+R9
+R10
+R11
+R12
+R13
+!s100 zLeacES[RXCZOMKkj978U0
+!i10b 1
+Erc_adder_2
+R1
+R3
+R4
+R5
+R6
+R7
+l0
+L102
+VGUJic1fD^0IIW@7<I[ULd1
+R8
+32
+R9
+R10
+R11
+R12
+R13
+!s100 njn^IJo_8:ChDERih?<EZ2
+!i10b 1
+Astructural
+R3
+R4
+DEx4 work 10 rc_adder_2 0 22 GUJic1fD^0IIW@7<I[ULd1
+l130
+L118
+VR5Ah_UPgIaH_Q]OU3??S70
+R8
+32
+R9
+R10
+R11
+R12
+R13
+!s100 CCa=84mI5g71<k3OaO0Ua0
+!i10b 1
+Estimuli_module
+Z14 w1651774295
+R2
+R3
+R4
+R5
+Z15 8C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_5/alu_1/stimuli_alu.vhd
+Z16 FC:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_5/alu_1/stimuli_alu.vhd
+l0
+L5
+V?@5N>DzJ<eR8KYmIbYK653
+R8
+32
+Z17 !s108 1651774297.980000
+Z18 !s90 -reportprogress|300|-work|work|C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_5/alu_1/stimuli_alu.vhd|
+Z19 !s107 C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_5/alu_1/stimuli_alu.vhd|
+R12
+R13
+!s100 :J]7_Bi1WBEm=651><b9_1
+!i10b 1
+Atest
+R2
+R3
+R4
+DEx4 work 14 stimuli_module 0 22 ?@5N>DzJ<eR8KYmIbYK653
+l25
+L20
+VV@9OJ2VGm;HUVMcPU0DB>1
+R8
+32
+R17
+R18
+R19
+R12
+R13
+!s100 bQ74f2h?eIEWieazK@8e12
+!i10b 1
+Etb_alu
+Z20 w1620750100
+R2
+R3
+R4
+R5
+Z21 8C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_5/alu_1/testbench_alu.vhd
+Z22 FC:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_5/alu_1/testbench_alu.vhd
+l0
+L5
+VKhRPVNJ99D:Ndz]cI@V@h2
+R8
+32
+Z23 !s108 1651774300.856000
+Z24 !s90 -reportprogress|300|-work|work|C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_5/alu_1/testbench_alu.vhd|
+Z25 !s107 C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_5/alu_1/testbench_alu.vhd|
+R12
+R13
+!s100 :zD4<LkjzI_<^^k_iB=dE1
+!i10b 1
+Atest
+R2
+R3
+R4
+DEx4 work 6 tb_alu 0 22 KhRPVNJ99D:Ndz]cI@V@h2
+l45
+L11
+VKQdK[413MSBDX`Kf0HIKa0
+R8
+32
+R23
+R24
+R25
+R12
+R13
+!s100 XVzfb05Zi6;n;j=PZ=Fi11
+!i10b 1

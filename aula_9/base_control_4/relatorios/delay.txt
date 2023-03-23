@@ -1,0 +1,82 @@
+
+
+
+                        Clock Frequency Report
+
+	Clock                : Frequency
+      ------------------------------------
+
+	clk                  : 349.3 MHz
+
+
+                        Critical Path Report
+
+
+Critical path #1, (path slack =  0.5):
+
+NAME                                               GATE              ARRIVAL              LOAD
+----------------------------------------------------------------------------------------------
+clock information not specified
+delay thru clock network                                             0.00 (worst case)
+
+
+cnt_prep/reg_cnt_s(0)/Q                            dff         0.00  0.42 up             0.05
+cnt_prep/cnt_s(0)                         (net)                0.00  0.42 up   (fan)     6.00
+cnt_prep/ix768/A3                                  nand04      0.00  0.42 up             0.00
+cnt_prep/ix768/Y                                   nand04      0.23  0.65 dn             0.07
+cnt_prep/nx767                            (net)                0.00  0.65 dn   (fan)     6.00
+cnt_prep/reg_nx512/A2                              nor03_2x    0.00  0.65 dn             0.00
+cnt_prep/reg_nx512/Y                               nor03_2x    0.14  0.79 up             0.02
+cnt_prep/nx512                            (net)                0.00  0.79 up   (fan)     3.00
+cnt_prep/ix729/A1                                  nand02      0.00  0.79 up             0.00
+cnt_prep/ix729/Y                                   nand02      0.25  1.04 dn             0.09
+cnt_prep/nx728                            (net)                0.00  1.04 dn   (fan)     7.00
+cnt_prep/reg_nx518/A2                              nor03_2x    0.00  1.04 dn             0.00
+cnt_prep/reg_nx518/Y                               nor03_2x    0.15  1.19 up             0.02
+cnt_prep/nx518                            (net)                0.00  1.19 up   (fan)     3.00
+cnt_prep/ix686/A1                                  nand02      0.00  1.19 up             0.00
+cnt_prep/ix686/Y                                   nand02      0.09  1.27 dn             0.02
+cnt_prep/nx685                            (net)                0.00  1.27 dn   (fan)     3.00
+cnt_prep/ix321/A0                                  nor02ii     0.00  1.27 dn             0.00
+cnt_prep/ix321/Y                                   nor02ii     0.15  1.42 up             0.02
+cnt_prep/nx521                            (net)                0.00  1.42 up   (fan)     3.00
+cnt_prep/ix668/A1                                  nand02      0.00  1.42 up             0.00
+cnt_prep/ix668/Y                                   nand02      0.09  1.50 dn             0.02
+cnt_prep/nx667                            (net)                0.00  1.50 dn   (fan)     3.00
+cnt_prep/ix357/A0                                  nor02ii     0.00  1.50 dn             0.00
+cnt_prep/ix357/Y                                   nor02ii     0.15  1.65 up             0.02
+cnt_prep/nx523                            (net)                0.00  1.65 up   (fan)     3.00
+cnt_prep/ix650/A1                                  nand02      0.00  1.65 up             0.00
+cnt_prep/ix650/Y                                   nand02      0.25  1.90 dn             0.09
+cnt_prep/nx649                            (net)                0.00  1.90 dn   (fan)     7.00
+cnt_prep/ix996/A0                                  nor03_2x    0.00  1.90 dn             0.00
+cnt_prep/ix996/Y                                   nor03_2x    0.12  2.02 up             0.01
+cnt_prep/nx952                            (net)                0.00  2.02 up   (fan)     1.00
+cnt_prep/reg_nx532/A0                              and04       0.00  2.02 up             0.00
+cnt_prep/reg_nx532/Y                               and04       0.28  2.30 up             0.05
+cnt_prep/nx532                            (net)                0.00  2.30 up   (fan)     6.00
+cnt_prep/reg_nx534/A0                              and02       0.00  2.30 up             0.00
+cnt_prep/reg_nx534/Y                               and02       0.21  2.52 up             0.04
+cnt_prep/nx534                            (net)                0.00  2.52 up   (fan)     4.00
+cnt_prep/ix970/A0                                  nand04_2x   0.00  2.52 up             0.00
+cnt_prep/ix970/Y                                   nand04_2x   0.06  2.58 dn             0.01
+cnt_prep/nx926                            (net)                0.00  2.58 dn   (fan)     1.00
+cnt_prep/reg_nx555/C0                              oai221      0.00  2.58 dn             0.00
+cnt_prep/reg_nx555/Y                               oai221      0.11  2.69 up             0.01
+cnt_prep/nx555                            (net)                0.00  2.69 up   (fan)     1.00
+cnt_prep/ix579/A0                                  nor02ii     0.00  2.69 up             0.00
+cnt_prep/ix579/Y                                   nor02ii     0.10  2.78 dn             0.01
+cnt_prep/nx578                            (net)                0.00  2.78 dn   (fan)     1.00
+cnt_prep/reg_cnt_s(31)/D                           dff         0.00  2.78 dn             0.00
+data arrival time                                                    2.78
+
+
+data required time  (default specified - setup time)                  3.26
+----------------------------------------------------------------------------------------------
+data required time                                                   3.26
+data arrival time                                                    2.78
+                                                                  ----------
+slack                                                               0.47
+----------------------------------------------------------------------------------------------
+
+

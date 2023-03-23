@@ -1,0 +1,58 @@
+Minimum Clock to Output Times report for alu_mem
+Wed Jan 20 16:04:42 2021
+Quartus II 64-Bit Version 10.1 Build 197 01/19/2011 Service Pack 1 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Minimum Clock to Output Times
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2011 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------------+
+; Minimum Clock to Output Times                                                 ;
++-----------------+------------+--------+--------+------------+-----------------+
+; Data Port       ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
++-----------------+------------+--------+--------+------------+-----------------+
+; bs_data_out[*]  ; clk        ; 9.211  ; 9.211  ; Rise       ; clk             ;
+;  bs_data_out[0] ; clk        ; 9.775  ; 9.775  ; Rise       ; clk             ;
+;  bs_data_out[1] ; clk        ; 10.473 ; 10.473 ; Rise       ; clk             ;
+;  bs_data_out[2] ; clk        ; 10.606 ; 10.606 ; Rise       ; clk             ;
+;  bs_data_out[3] ; clk        ; 10.554 ; 10.554 ; Rise       ; clk             ;
+;  bs_data_out[4] ; clk        ; 10.104 ; 10.104 ; Rise       ; clk             ;
+;  bs_data_out[5] ; clk        ; 9.515  ; 9.515  ; Rise       ; clk             ;
+;  bs_data_out[6] ; clk        ; 9.997  ; 9.997  ; Rise       ; clk             ;
+;  bs_data_out[7] ; clk        ; 9.211  ; 9.211  ; Rise       ; clk             ;
+; ds_data_out[*]  ; clk        ; 9.231  ; 9.231  ; Rise       ; clk             ;
+;  ds_data_out[0] ; clk        ; 9.461  ; 9.461  ; Rise       ; clk             ;
+;  ds_data_out[1] ; clk        ; 10.129 ; 10.129 ; Rise       ; clk             ;
+;  ds_data_out[2] ; clk        ; 10.127 ; 10.127 ; Rise       ; clk             ;
+;  ds_data_out[3] ; clk        ; 9.603  ; 9.603  ; Rise       ; clk             ;
+;  ds_data_out[4] ; clk        ; 9.388  ; 9.388  ; Rise       ; clk             ;
+;  ds_data_out[5] ; clk        ; 9.231  ; 9.231  ; Rise       ; clk             ;
+;  ds_data_out[6] ; clk        ; 10.736 ; 10.736 ; Rise       ; clk             ;
+;  ds_data_out[7] ; clk        ; 10.369 ; 10.369 ; Rise       ; clk             ;
++-----------------+------------+--------+--------+------------+-----------------+
+
+

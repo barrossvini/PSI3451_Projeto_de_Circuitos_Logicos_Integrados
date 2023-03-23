@@ -1,0 +1,64 @@
+
+
+
+
+
+                        Critical Path Report
+
+
+Critical path #1, (path slack =  0.8):
+
+NAME                                                        GATE              ARRIVAL              LOAD
+-------------------------------------------------------------------------------------------------------
+ds_from_rb(1)/                                                          0.00  0.00 up             0.04
+ix5450/A3                                                   nand04      0.00  0.00 up             0.00
+ix5450/Y                                                    nand04      0.10  0.10 dn             0.02
+nx5449                                             (net)                0.00  0.10 dn   (fan)     3.00
+ix133/A0                                                    nor02ii     0.00  0.10 dn             0.00
+ix133/Y                                                     nor02ii     0.19  0.29 up             0.03
+nx132                                              (net)                0.00  0.29 up   (fan)     2.00
+ix151/A1                                                    xor2        0.00  0.29 up             0.00
+ix151/Y                                                     xor2        0.17  0.46 dn             0.01
+nx150                                              (net)                0.00  0.46 dn   (fan)     1.00
+ix5470/A1                                                   mux21       0.00  0.46 dn             0.00
+ix5470/Y                                                    mux21       0.14  0.60 up             0.02
+nx5469                                             (net)                0.00  0.60 up   (fan)     4.00
+ix281/A0                                                    nor02ii     0.00  0.60 up             0.00
+ix281/Y                                                     nor02ii     0.16  0.76 dn             0.03
+nx280                                              (net)                0.00  0.76 dn   (fan)     5.00
+ix5722/A1                                                   nand02      0.00  0.76 dn             0.00
+ix5722/Y                                                    nand02      0.12  0.88 up             0.02
+nx5721                                             (net)                0.00  0.88 up   (fan)     3.00
+ix8443/A                                                    inv01       0.00  0.88 up             0.00
+ix8443/Y                                                    inv01       0.13  1.01 dn             0.03
+nx8444                                             (net)                0.00  1.01 dn   (fan)     6.00
+ix8251/A1                                                   nand02      0.00  1.01 dn             0.00
+ix8251/Y                                                    nand02      0.15  1.16 up             0.03
+nx8252                                             (net)                0.00  1.16 up   (fan)     6.00
+ix8063/A0                                                   nor02ii     0.00  1.16 up             0.00
+ix8063/Y                                                    nor02ii     0.17  1.33 dn             0.04
+nx8064                                             (net)                0.00  1.33 dn   (fan)     6.00
+ix7016/B1                                                   aoi22       0.00  1.33 dn             0.00
+ix7016/Y                                                    aoi22       0.12  1.45 up             0.01
+nx7015                                             (net)                0.00  1.45 up   (fan)     1.00
+ix3595/A0                                                   nand04      0.00  1.45 up             0.00
+ix3595/Y                                                    nand04      0.08  1.53 dn             0.01
+nx3594                                             (net)                0.00  1.53 dn   (fan)     1.00
+ix7013/A0                                                   nor04       0.00  1.53 dn             0.00
+ix7013/Y                                                    nor04       0.17  1.69 up             0.01
+nx7012                                             (net)                0.00  1.69 up   (fan)     1.00
+ix3919/A1                                                   nand02      0.00  1.69 up             0.00
+ix3919/Y                                                    nand02      0.03  1.73 dn             0.00
+ds_data_out(4)                                     (net)                0.00  1.73 dn   (fan)     1.00
+ds_data_out(4)/                                                         0.00  1.73 dn             0.00
+data arrival time                                                             1.73
+
+data required time  (default specified)                                       2.50
+-------------------------------------------------------------------------------------------------------
+data required time                                                            2.50
+data arrival time                                                             1.73
+                                                                           ----------
+slack                                                                        0.77
+-------------------------------------------------------------------------------------------------------
+
+

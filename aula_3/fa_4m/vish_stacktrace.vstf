@@ -1,0 +1,19 @@
+# Current time Thu Apr 07 15:20:58 2022
+# ModelSim Stack Trace
+# Program = vish
+# Id = "10.1d"
+# Version = "2012.11"
+# Date = "Nov  1 2012"
+# Platform = win64
+
+Exception c0000005 has occurred at address 10298160. Traceback:
+# 0    0x10298160: 'Tk_MessageObjCmd + 0xbb0'
+# 1    0x1006a1dc: 'TclServiceIdle + 0x6c'
+# 2    0xffffffff: '<unknown (@0xffffffff)>'
+# 3    0x00000000: '<unknown (@0x0)>'
+# 4    0x0c742a00: '<unknown (@0xc742a00)>'
+# 5    0x1006a17c: 'TclServiceIdle + 0xc'
+# 6    0x10059d61: 'Tcl_DoOneEvent + 0x141'
+StackWalk failed 0
+# End of Stack Trace
+

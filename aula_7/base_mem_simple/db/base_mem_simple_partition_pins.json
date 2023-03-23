@@ -1,0 +1,205 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "base_data_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "base_data_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "base_data_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "base_data_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "base_data_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "base_data_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "base_data_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "base_data_out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_data_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_data_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_data_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_data_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_data_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_data_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_data_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_data_out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "base_mem_wren",
+					"strict" : false
+				},
+				{
+					"name" : "disc_mem_wren",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "cg_sel.BLANK",
+					"strict" : false
+				},
+				{
+					"name" : "out_sel.INIT_OUT",
+					"strict" : false
+				},
+				{
+					"name" : "out_sel.REG_GURU_OUT",
+					"strict" : false
+				},
+				{
+					"name" : "disc_mem_data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_mem_addr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_mem_addr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_mem_addr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_mem_addr[3]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_mem_addr[4]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_mem_addr[5]",
+					"strict" : false
+				},
+				{
+					"name" : "cg_sel.GURU",
+					"strict" : false
+				},
+				{
+					"name" : "disc_mem_data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "cg_sel.DISCIPLE",
+					"strict" : false
+				},
+				{
+					"name" : "disc_mem_data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "cg_sel.DUO",
+					"strict" : false
+				},
+				{
+					"name" : "disc_mem_data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_mem_data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_mem_data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_mem_data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_mem_data[7]",
+					"strict" : false
+				},
+				{
+					"name" : "res",
+					"strict" : false
+				},
+				{
+					"name" : "ng_2_RB[0]",
+					"strict" : false
+				},
+				{
+					"name" : "rb_INIT_en",
+					"strict" : false
+				},
+				{
+					"name" : "rb_GURU_en",
+					"strict" : false
+				},
+				{
+					"name" : "rb_PRE_GURU_en",
+					"strict" : false
+				},
+				{
+					"name" : "ng_2_RB[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ng_2_RB[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ng_2_RB[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ng_2_RB[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ng_2_RB[5]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

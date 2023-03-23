@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Aug 26 22:17:13 2020
+Quartus II 64-Bit Version : 10.1 Build 197 01/19/2011 SP 1 SJ Full Version
+Revision Name : mem_2port
+Top-level Entity Name : mem_2port
+Family : Cyclone II
+Total logic elements : 0
+    Total combinational functions : 0
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 47
+Total virtual pins : 0
+Total memory bits : 512
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

@@ -1,0 +1,245 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "print_rdy",
+					"strict" : false
+				},
+				{
+					"name" : "cnt_disc_rdy",
+					"strict" : false
+				},
+				{
+					"name" : "ref_2_disc.guru_right_behind",
+					"strict" : false
+				},
+				{
+					"name" : "ref_2_disc.duo_formed",
+					"strict" : false
+				},
+				{
+					"name" : "ref_2_disc.go_disc",
+					"strict" : false
+				},
+				{
+					"name" : "start_step",
+					"strict" : false
+				},
+				{
+					"name" : "mem_a_data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_a_data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_a_data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_a_data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_a_data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_a_data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_a_data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_a_data[7]",
+					"strict" : false
+				},
+				{
+					"name" : "enable",
+					"strict" : false
+				},
+				{
+					"name" : "disc_2_base.end_of_disc",
+					"strict" : false
+				},
+				{
+					"name" : "res",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "sys_speed[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sys_speed[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sys_speed[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sys_speed[3]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_2_ref.disc_prev_addr[3]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_2_ref.disc_prev_addr[4]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_2_ref.disc_prev_addr[5]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_2_ref.disc_prev_addr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_2_ref.disc_prev_addr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_2_ref.disc_prev_addr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_2_ref.disc_prev_addr[6]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_2_ref.disc_prev_addr[7]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_2_ref.disc_addr[5]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_2_ref.disc_addr[6]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_2_ref.disc_addr[7]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_2_ref.disc_addr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_2_ref.disc_addr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_2_ref.disc_addr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_2_ref.disc_addr[3]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_2_ref.disc_addr[4]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_2_mem.mem_wr_en",
+					"strict" : false
+				},
+				{
+					"name" : "mem_a_addr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_a_addr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_a_addr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_a_addr[3]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_a_addr[4]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_a_addr[5]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_2_mem.data_b[0]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_2_mem.mem_b_addr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_2_mem.mem_b_addr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_2_mem.mem_b_addr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_2_mem.mem_b_addr[3]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_2_mem.mem_b_addr[4]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_2_mem.mem_b_addr[5]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_2_mem.data_b[1]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_2_mem.data_b[2]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_2_mem.data_b[3]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_2_mem.data_b[4]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_2_mem.data_b[5]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_2_mem.data_b[6]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_2_mem.data_b[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

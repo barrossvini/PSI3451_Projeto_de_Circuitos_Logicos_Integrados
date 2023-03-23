@@ -1,0 +1,76 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Vinícius\Desktop\USP\PSI3451_wang\aula_3\sc_1
+T_opt
+VQ0^_9a=@W[PYP2dWGa_j93
+Z1 04 12 4 work step_counter arch 1
+=1-641c678d78b7-624f2bd1-322-1f28
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OL;O;10.1d;51
+Z3 dC:\Users\Vinícius\Desktop\USP\PSI3451_wang\aula_3\sc_1
+T_opt1
+VcH7hTMmeU1jOmY2PX^ZS82
+R1
+=1-641c678d78b7-624f2bdf-df-2430
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt1
+R2
+Pmy_package
+Z4 w1649333746
+R3
+Z5 8C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_3/sc_1/step_counter_1.vhd
+Z6 FC:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_3/sc_1/step_counter_1.vhd
+l0
+L1
+VnV5zPDM00WTa6Vdb[QJHT2
+Z7 OL;C;10.1d;51
+32
+Z8 !s108 1649355715.582000
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_3/sc_1/step_counter_1.vhd|
+Z10 !s107 C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_3/sc_1/step_counter_1.vhd|
+Z11 o-work work
+Z12 tExplicit 1
+!s100 f782;LY59zfOl^N^G>LJR1
+!i10b 1
+Estep_counter
+R4
+Z13 DPx4 work 10 my_package 0 22 nV5zPDM00WTa6Vdb[QJHT2
+Z14 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z15 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z16 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+R3
+R5
+R6
+l0
+L19
+VE6@fZmiUI58gZL`@nd3bD1
+R7
+32
+R8
+R9
+R10
+R11
+R12
+!s100 em3NN4]e`nABC2TEFD`NB3
+!i10b 1
+Aarch
+R13
+R14
+R15
+R16
+DEx4 work 12 step_counter 0 22 E6@fZmiUI58gZL`@nd3bD1
+l50
+L38
+VZDOReg=PUWLh0N`f^]a;Y0
+R7
+32
+R8
+R9
+R10
+R11
+R12
+!s100 MO0>[O8Sb;M4?oieDPVK=2
+!i10b 1

@@ -1,0 +1,62 @@
+Resource Usage Summary report for alu_mem
+Wed Jan 20 17:46:01 2021
+Quartus II 64-Bit Version 10.1 Build 197 01/19/2011 Service Pack 1 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Resource Usage Summary
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2011 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++---------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                   ;
++---------------------------------------------+-----------------+
+; Resource                                    ; Usage           ;
++---------------------------------------------+-----------------+
+; Estimated Total logic elements              ; 20              ;
+;                                             ;                 ;
+; Total combinational functions               ; 20              ;
+; Logic element usage by number of LUT inputs ;                 ;
+;     -- 4 input functions                    ; 14              ;
+;     -- 3 input functions                    ; 4               ;
+;     -- <=2 input functions                  ; 2               ;
+;                                             ;                 ;
+; Logic elements by mode                      ;                 ;
+;     -- normal mode                          ; 20              ;
+;     -- arithmetic mode                      ; 0               ;
+;                                             ;                 ;
+; Total registers                             ; 0               ;
+;     -- Dedicated logic registers            ; 0               ;
+;     -- I/O registers                        ; 0               ;
+;                                             ;                 ;
+; I/O pins                                    ; 69              ;
+; Total memory bits                           ; 512             ;
+; Maximum fan-out node                        ; bs_mux_out[0]~0 ;
+; Maximum fan-out                             ; 8               ;
+; Total fan-out                               ; 224             ;
+; Average fan-out                             ; 2.31            ;
++---------------------------------------------+-----------------+
+
+

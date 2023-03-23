@@ -1,0 +1,48 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Vinícius\Desktop\USP\PSI3451_wang\aula_2\fa_1
+T_opt
+V^0LnYX@?PzmaNMbf_zY511
+04 12 8 work full_adder_1 dataflow 1
+=1-641c678d78b7-6245ca47-8e-2f00
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+OL;O;10.1d;51
+Z1 dC:\Users\Vinícius\Desktop\USP\PSI3451_wang\aula_2\fa_1
+Efull_adder_1
+Z2 w1648740804
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+R1
+Z5 8C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_2/fa_1/full_adder_1.vhd
+Z6 FC:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_2/fa_1/full_adder_1.vhd
+l0
+L4
+VP@450UkNm[lKo;WH8h6ZC0
+!s100 62WNf6j:F4MPJW_[Nl^1e0
+Z7 OL;C;10.1d;51
+32
+!i10b 1
+Z8 !s108 1648749454.935000
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_2/fa_1/full_adder_1.vhd|
+Z10 !s107 C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_2/fa_1/full_adder_1.vhd|
+Z11 o-work work
+Z12 tExplicit 1
+Adataflow
+R3
+R4
+Z13 DEx4 work 12 full_adder_1 0 22 P@450UkNm[lKo;WH8h6ZC0
+l19
+L15
+Z14 V89I@zlFj>7Z`_8;al1E4@3
+Z15 !s100 <RVQX41Z5ojjkgoi>eg>a1
+R7
+32
+!i10b 1
+R8
+R9
+R10
+R11
+R12

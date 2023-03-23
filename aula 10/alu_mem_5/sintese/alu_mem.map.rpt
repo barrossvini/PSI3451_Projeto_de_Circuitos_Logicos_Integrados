@@ -1,0 +1,406 @@
+Analysis & Synthesis report for alu_mem
+Wed Jan 20 15:54:54 2021
+Quartus II 64-Bit Version 10.1 Build 197 01/19/2011 Service Pack 1 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. Analysis & Synthesis IP Cores Summary
+  9. General Register Statistics
+ 10. Parameter Settings for User Entity Instance: Top-level Entity: |alu_mem
+ 11. Parameter Settings for User Entity Instance: alu:alu_bs
+ 12. Parameter Settings for User Entity Instance: alu:alu_bs|rc_adder_2:add
+ 13. Parameter Settings for User Entity Instance: alu:alu_ds
+ 14. Parameter Settings for User Entity Instance: alu:alu_ds|rc_adder_2:add
+ 15. Port Connectivity Checks: "alu:alu_ds"
+ 16. Port Connectivity Checks: "alu:alu_bs|rc_adder_2:add"
+ 17. Port Connectivity Checks: "alu:alu_bs"
+ 18. Elapsed Time Per Partition
+ 19. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2011 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                        ;
++------------------------------------+------------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Wed Jan 20 15:54:54 2021          ;
+; Quartus II 64-Bit Version          ; 10.1 Build 197 01/19/2011 SP 1 SJ Full Version ;
+; Revision Name                      ; alu_mem                                        ;
+; Top-level Entity Name              ; alu_mem                                        ;
+; Family                             ; Cyclone II                                     ;
+; Total logic elements               ; 1,364                                          ;
+;     Total combinational functions  ; 1,364                                          ;
+;     Dedicated logic registers      ; 512                                            ;
+; Total registers                    ; 512                                            ;
+; Total pins                         ; 69                                             ;
+; Total virtual pins                 ; 0                                              ;
+; Total memory bits                  ; 0                                              ;
+; Embedded Multiplier 9-bit elements ; 0                                              ;
+; Total PLLs                         ; 0                                              ;
++------------------------------------+------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                        ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                     ; EP2C35F672C6       ;                    ;
+; Top-level entity name                                                      ; alu_mem            ; alu_mem            ;
+; Family name                                                                ; Cyclone II         ; Cyclone IV GX      ;
+; Optimization Technique                                                     ; Speed              ; Balanced           ;
+; Timing-Driven Synthesis                                                    ; On                 ; Off                ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; PowerPlay Power Optimization                                               ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
+; Synthesis Seed                                                             ; 1                  ; 1                  ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 2           ;
+; Maximum allowed            ; 2           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 2           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     1 processor            ; 100.0%      ;
+;     2 processors           ; < 0.1%      ;
++----------------------------+-------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                      ;
++----------------------------------+-----------------+-----------------------------+------------------------------------------------------------------------------------------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                   ; File Name with Absolute Path                                                             ;
++----------------------------------+-----------------+-----------------------------+------------------------------------------------------------------------------------------+
+; ../fonte/rc_adder_2.vhd          ; yes             ; User VHDL File              ; C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 10/alu_mem_5/fonte/rc_adder_2.vhd      ;
+; ../fonte/mem_quartus_rtl.vhd     ; yes             ; User Wizard-Generated File  ; C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 10/alu_mem_5/fonte/mem_quartus_rtl.vhd ;
+; ../fonte/mem_2port.vhd           ; yes             ; User VHDL File              ; C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 10/alu_mem_5/fonte/mem_2port.vhd       ;
+; ../fonte/full_adder_1.vhd        ; yes             ; User VHDL File              ; C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 10/alu_mem_5/fonte/full_adder_1.vhd    ;
+; ../fonte/alu_mem.vhd             ; yes             ; User VHDL File              ; C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 10/alu_mem_5/fonte/alu_mem.vhd         ;
+; ../fonte/alu_1.vhd               ; yes             ; User VHDL File              ; C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 10/alu_mem_5/fonte/alu_1.vhd           ;
++----------------------------------+-----------------+-----------------------------+------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary         ;
++---------------------------------------------+-------+
+; Resource                                    ; Usage ;
++---------------------------------------------+-------+
+; Estimated Total logic elements              ; 1,364 ;
+;                                             ;       ;
+; Total combinational functions               ; 1364  ;
+; Logic element usage by number of LUT inputs ;       ;
+;     -- 4 input functions                    ; 846   ;
+;     -- 3 input functions                    ; 516   ;
+;     -- <=2 input functions                  ; 2     ;
+;                                             ;       ;
+; Logic elements by mode                      ;       ;
+;     -- normal mode                          ; 1364  ;
+;     -- arithmetic mode                      ; 0     ;
+;                                             ;       ;
+; Total registers                             ; 512   ;
+;     -- Dedicated logic registers            ; 512   ;
+;     -- I/O registers                        ; 0     ;
+;                                             ;       ;
+; I/O pins                                    ; 69    ;
+; Maximum fan-out node                        ; clk   ;
+; Maximum fan-out                             ; 512   ;
+; Total fan-out                               ; 7000  ;
+; Average fan-out                             ; 3.60  ;
++---------------------------------------------+-------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                          ;
++-----------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------+--------------+
+; Compilation Hierarchy Node                          ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                         ; Library Name ;
++-----------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------+--------------+
+; |alu_mem                                            ; 1364 (140)        ; 512 (0)      ; 0           ; 0            ; 0       ; 0         ; 69   ; 0            ; |alu_mem                                                                    ;              ;
+;    |alu:alu_bs|                                     ; 4 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu_mem|alu:alu_bs                                                         ;              ;
+;       |rc_adder_2:add|                              ; 4 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu_mem|alu:alu_bs|rc_adder_2:add                                          ;              ;
+;          |full_adder_1:\G_ALL:1:G_OTHERS:fa_others| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu_mem|alu:alu_bs|rc_adder_2:add|full_adder_1:\G_ALL:1:G_OTHERS:fa_others ;              ;
+;          |full_adder_1:\G_ALL:2:G_OTHERS:fa_others| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu_mem|alu:alu_bs|rc_adder_2:add|full_adder_1:\G_ALL:2:G_OTHERS:fa_others ;              ;
+;          |full_adder_1:\G_ALL:3:G_OTHERS:fa_others| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu_mem|alu:alu_bs|rc_adder_2:add|full_adder_1:\G_ALL:3:G_OTHERS:fa_others ;              ;
+;          |full_adder_1:\G_ALL:4:G_OTHERS:fa_others| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu_mem|alu:alu_bs|rc_adder_2:add|full_adder_1:\G_ALL:4:G_OTHERS:fa_others ;              ;
+;    |alu:alu_ds|                                     ; 4 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu_mem|alu:alu_ds                                                         ;              ;
+;       |rc_adder_2:add|                              ; 4 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu_mem|alu:alu_ds|rc_adder_2:add                                          ;              ;
+;          |full_adder_1:\G_ALL:1:G_OTHERS:fa_others| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu_mem|alu:alu_ds|rc_adder_2:add|full_adder_1:\G_ALL:1:G_OTHERS:fa_others ;              ;
+;          |full_adder_1:\G_ALL:2:G_OTHERS:fa_others| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu_mem|alu:alu_ds|rc_adder_2:add|full_adder_1:\G_ALL:2:G_OTHERS:fa_others ;              ;
+;          |full_adder_1:\G_ALL:3:G_OTHERS:fa_others| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu_mem|alu:alu_ds|rc_adder_2:add|full_adder_1:\G_ALL:3:G_OTHERS:fa_others ;              ;
+;          |full_adder_1:\G_ALL:4:G_OTHERS:fa_others| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu_mem|alu:alu_ds|rc_adder_2:add|full_adder_1:\G_ALL:4:G_OTHERS:fa_others ;              ;
+;    |mem_2port:mem|                                  ; 1216 (0)          ; 512 (0)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu_mem|mem_2port:mem                                                      ;              ;
+;       |mem_quartus:Mem_block|                       ; 1216 (1216)       ; 512 (512)    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu_mem|mem_2port:mem|mem_quartus:Mem_block                                ;              ;
++-----------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis IP Cores Summary                                                                                                                                                                   ;
++--------+--------------+---------+--------------+--------------+----------------------------------------------+------------------------------------------------------------------------------------------+
+; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                              ; IP Include File                                                                          ;
++--------+--------------+---------+--------------+--------------+----------------------------------------------+------------------------------------------------------------------------------------------+
+; Altera ; RAM: 2-PORT  ; N/A     ; N/A          ; N/A          ; |alu_mem|mem_2port:mem|mem_quartus:Mem_block ; C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 10/alu_mem_5/fonte/mem_quartus_rtl.vhd ;
++--------+--------------+---------+--------------+--------------+----------------------------------------------+------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 512   ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 512   ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Top-level Entity: |alu_mem ;
++----------------+-------+------------------------------------------------+
+; Parameter Name ; Value ; Type                                           ;
++----------------+-------+------------------------------------------------+
+; WIDTH          ; 8     ; Signed Integer                                 ;
++----------------+-------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------+
+; Parameter Settings for User Entity Instance: alu:alu_bs ;
++----------------+-------+--------------------------------+
+; Parameter Name ; Value ; Type                           ;
++----------------+-------+--------------------------------+
+; width          ; 8     ; Signed Integer                 ;
++----------------+-------+--------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: alu:alu_bs|rc_adder_2:add ;
++----------------+-------+-----------------------------------------------+
+; Parameter Name ; Value ; Type                                          ;
++----------------+-------+-----------------------------------------------+
+; width          ; 8     ; Signed Integer                                ;
++----------------+-------+-----------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------+
+; Parameter Settings for User Entity Instance: alu:alu_ds ;
++----------------+-------+--------------------------------+
+; Parameter Name ; Value ; Type                           ;
++----------------+-------+--------------------------------+
+; width          ; 8     ; Signed Integer                 ;
++----------------+-------+--------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: alu:alu_ds|rc_adder_2:add ;
++----------------+-------+-----------------------------------------------+
+; Parameter Name ; Value ; Type                                          ;
++----------------+-------+-----------------------------------------------+
+; width          ; 8     ; Signed Integer                                ;
++----------------+-------+-----------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:alu_ds"                                                                                     ;
++------------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port             ; Type   ; Severity ; Details                                                                             ;
++------------------+--------+----------+-------------------------------------------------------------------------------------+
+; alu_result[7..6] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:alu_bs|rc_adder_2:add"                                                               ;
++-----------+--------+----------+-------------------------------------------------------------------------------------+
+; Port      ; Type   ; Severity ; Details                                                                             ;
++-----------+--------+----------+-------------------------------------------------------------------------------------+
+; a_i[7..1] ; Input  ; Info     ; Stuck at GND                                                                        ;
+; a_i[0]    ; Input  ; Info     ; Stuck at VCC                                                                        ;
+; c_i       ; Input  ; Info     ; Stuck at GND                                                                        ;
+; c_o       ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++-----------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:alu_bs"                                                                                     ;
++------------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port             ; Type   ; Severity ; Details                                                                             ;
++------------------+--------+----------+-------------------------------------------------------------------------------------+
+; alu_result[7..6] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:04     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Analysis & Synthesis
+    Info: Version 10.1 Build 197 01/19/2011 Service Pack 1 SJ Full Version
+    Info: Processing started: Wed Jan 20 15:54:34 2021
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off alu_mem -c alu_mem
+Info: Parallel compilation is enabled and will use 2 of the 2 processors detected
+Info: Found 2 design units, including 1 entities, in source file /users/vinícius/desktop/usp/psi3451 (wang)/aula 10/alu_mem_5/fonte/rc_adder_2.vhd
+    Info: Found design unit 1: rc_adder_2-structural
+    Info: Found entity 1: rc_adder_2
+Info: Found 2 design units, including 1 entities, in source file /users/vinícius/desktop/usp/psi3451 (wang)/aula 10/alu_mem_5/fonte/mem_quartus_rtl.vhd
+    Info: Found design unit 1: mem_quartus-rtl
+    Info: Found entity 1: mem_quartus
+Info: Found 2 design units, including 1 entities, in source file /users/vinícius/desktop/usp/psi3451 (wang)/aula 10/alu_mem_5/fonte/mem_2port.vhd
+    Info: Found design unit 1: mem_2port-structure
+    Info: Found entity 1: mem_2port
+Info: Found 2 design units, including 1 entities, in source file /users/vinícius/desktop/usp/psi3451 (wang)/aula 10/alu_mem_5/fonte/full_adder_1.vhd
+    Info: Found design unit 1: full_adder_1-dataflow
+    Info: Found entity 1: full_adder_1
+Info: Found 3 design units, including 1 entities, in source file /users/vinícius/desktop/usp/psi3451 (wang)/aula 10/alu_mem_5/fonte/alu_mem.vhd
+    Info: Found design unit 1: wisdom_package
+    Info: Found design unit 2: alu_mem-add_mux
+    Info: Found entity 1: alu_mem
+Info: Found 2 design units, including 1 entities, in source file /users/vinícius/desktop/usp/psi3451 (wang)/aula 10/alu_mem_5/fonte/alu_1.vhd
+    Info: Found design unit 1: alu-with_RCA
+    Info: Found entity 1: alu
+Info: Elaborating entity "alu_mem" for the top level hierarchy
+Info: Elaborating entity "mem_2port" for hierarchy "mem_2port:mem"
+Info: Elaborating entity "mem_quartus" for hierarchy "mem_2port:mem|mem_quartus:Mem_block"
+Info: Elaborating entity "alu" for hierarchy "alu:alu_bs"
+Warning (10036): Verilog HDL or VHDL warning at alu_1.vhd(61): object "carry_out_s" assigned a value but never read
+Info: Elaborating entity "rc_adder_2" for hierarchy "alu:alu_bs|rc_adder_2:add"
+Info: Elaborating entity "full_adder_1" for hierarchy "alu:alu_bs|rc_adder_2:add|full_adder_1:\G_ALL:7:G_MAX:fa_MAX"
+Info: Found 1 instances of uninferred RAM logic
+    Info: RAM logic "mem_2port:mem|mem_quartus:Mem_block|ram" is uninferred due to asynchronous read logic
+Info: Timing-Driven Synthesis is running
+Info: Generating hard_block partition "hard_block:auto_generated_inst"
+Warning: Design contains 8 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "bs_from_rb[6]"
+    Warning (15610): No output dependent on input pin "bs_from_rb[7]"
+    Warning (15610): No output dependent on input pin "ds_from_rb[6]"
+    Warning (15610): No output dependent on input pin "ds_from_rb[7]"
+    Warning (15610): No output dependent on input pin "bs_from_cte[6]"
+    Warning (15610): No output dependent on input pin "bs_from_cte[7]"
+    Warning (15610): No output dependent on input pin "ds_from_cte[6]"
+    Warning (15610): No output dependent on input pin "ds_from_cte[7]"
+Info: Implemented 1433 device resources after synthesis - the final resource count might be different
+    Info: Implemented 53 input pins
+    Info: Implemented 16 output pins
+    Info: Implemented 1364 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 10 warnings
+    Info: Peak virtual memory: 4545 megabytes
+    Info: Processing ended: Wed Jan 20 15:54:55 2021
+    Info: Elapsed time: 00:00:21
+    Info: Total CPU time (on all processors): 00:00:04
+
+

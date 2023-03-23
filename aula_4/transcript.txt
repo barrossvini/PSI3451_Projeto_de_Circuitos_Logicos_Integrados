@@ -1,0 +1,19 @@
+force ng_rand_zero 0
+force ng_cte_incr 0
+force alu_2_ng 10101010
+run 100 ns
+
+force ng_rand_zero 1
+force ng_cte_incr 0
+force alu_2_ng 10101010
+run 100 ns
+
+force ng_rand_zero 0
+force ng_cte_incr 1
+force alu_2_ng 10101010
+run 100 ns
+
+force ng_rand_zero 1
+force ng_cte_incr 1
+force alu_2_ng 10101010	
+run 100 ns

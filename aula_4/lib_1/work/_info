@@ -1,0 +1,51 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Vinícius\Desktop\USP\PSI3451_wang\aula_4\lib_1
+T_opt
+VjP94BAzh7:3M`d_l@77hc1
+04 24 4 work num_gen_with_procedure_2 arch 1
+=1-641c678d78b7-626ad8cb-296-1f20
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+OL;O;10.1d;51
+Enum_gen_with_procedure_2
+Z1 w1651161566
+Z2 DPx13 procedure_lib 14 procedure_pack 0 22 ZGdm_0zG]efN>;jnTD;N02
+Z3 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z6 dC:\Users\Vinícius\Desktop\USP\PSI3451_wang\aula_4\lib_1
+Z7 8C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_4/ng_5/num_gen_5.vhd
+Z8 FC:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_4/ng_5/num_gen_5.vhd
+l0
+L20
+VGfoXjhD?4RC1V61YKlPb71
+Z9 OL;C;10.1d;51
+32
+Z10 !s108 1651169420.096000
+Z11 !s90 -reportprogress|300|-work|work|C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_4/ng_5/num_gen_5.vhd|
+Z12 !s107 C:/Users/Vinícius/Desktop/USP/PSI3451_wang/aula_4/ng_5/num_gen_5.vhd|
+Z13 o-work work
+Z14 tExplicit 1
+!s100 OHLE@Z^@6Ogik]=Jhi`4C2
+!i10b 1
+Aarch
+R2
+R3
+R4
+R5
+DEx4 work 24 num_gen_with_procedure_2 0 22 GfoXjhD?4RC1V61YKlPb71
+l54
+L35
+VoSTjY[M?FhSSoF]?QaCGU1
+R9
+32
+R10
+R11
+R12
+R13
+R14
+!s100 2WQ;`z>3QLI[cL]ZcGieN1
+!i10b 1

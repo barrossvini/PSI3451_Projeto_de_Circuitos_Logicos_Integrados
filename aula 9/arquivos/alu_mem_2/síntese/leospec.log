@@ -1,0 +1,371 @@
+LeonardoSpectrum Level 3 - 2012b.6 (Release Production Release, compiled Aug  8 2012 at 15:10:47)
+Copyright 1990-2010 Mentor Graphics.  All rights reserved.
+Portions copyright 1991-2010 Compuware Corporation
+
+--
+-- Welcome to LeonardoSpectrum Level 3
+-- Run By Vinícius@TEXUGO-NEGRO
+-- Run Started On Tue Jan 05 13:56:21 Hora oficial do Brasil 2021
+--
+Reading library file `C:\MGC\LeoSpec\LS2012b_6\\lib\tsmc035_typ.syn`...
+Library version = 3.0 Release : Patch (a) : 09/13/04
+Delays assume: Process=typical Temp= 27.0 C  Voltage=3.30 V  
+Info: setting encoding to auto
+Info, Working Directory is now 'C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/síntese'
+-- Reading file C:\MGC\LeoSpec\LS2012b_6\\data\standard.vhd for unit standard
+-- Loading package standard into library std
+-- Reading vhdl file C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/alu_1.vhd into library work
+-- Reading file C:\MGC\LeoSpec\LS2012b_6\\data\std_1164.vhd for unit std_logic_1164
+-- Loading package std_logic_1164 into library IEEE
+-- Reading file C:\MGC\LeoSpec\LS2012b_6\\data\numeric_std.vhd for unit numeric_std
+-- Loading package NUMERIC_STD into library IEEE
+-- Loading entity alu into library work
+-- Loading architecture with_RCA of alu into library work
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/alu_1.vhd",line 61: Warning, signal carry_out_s is never used.
+-- Reading vhdl file C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/alu_mem.vhd into library work
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/alu_mem.vhd",line 21: Info, Enumerated type CONTROL_SELECT with 2 elements encoded as binary.
+Encodings for CONTROL_SELECT values
+   value    CONTROL_SELECT[0]
+=============================
+       INIT_CON  0
+  STEP_GURU_CON  1
+
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/alu_mem.vhd",line 27: Info, Enumerated type RB_SEL with 3 elements encoded as binary.
+Encodings for RB_SEL values
+        value    RB_SEL[1-0]
+============================
+       INIT_OUT  00
+   REG_GURU_OUT  -1
+REG_GURU_PREV_OUT  10
+
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/alu_mem.vhd",line 34: Info, Enumerated type CODE with 4 elements encoded as binary.
+Encodings for CODE values
+        value    CODE[1-0]
+==========================
+          BLANK  00
+           GURU  01
+       DISCIPLE  10
+            DUO  11
+
+-- Loading package wisdom_package into library work
+-- Loading entity alu_mem into library work
+-- Loading architecture add_mux of alu_mem into library work
+-- Reading vhdl file C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/full_adder_1.vhd into library work
+-- Loading entity full_adder_1 into library work
+-- Loading architecture dataflow of full_adder_1 into library work
+-- Reading vhdl file C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/mem_2port.vhd into library work
+-- Loading entity mem_2port into library work
+-- Loading architecture structure of mem_2port into library work
+-- Reading vhdl file C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/mem_quartus_rtl.vhd into library work
+-- Loading entity mem_quartus into library work
+-- Loading architecture rtl of mem_quartus into library work
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/mem_quartus_rtl.vhd",line 61: Warning, signal q_a_s is never used.
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/mem_quartus_rtl.vhd",line 61: Warning, signal q_a_s is never assigned a value.
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/mem_quartus_rtl.vhd",line 61: Warning, signal q_b_s is never used.
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/mem_quartus_rtl.vhd",line 61: Warning, signal q_b_s is never assigned a value.
+-- Reading vhdl file C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/rc_adder_2.vhd into library work
+-- Loading entity rc_adder_2 into library work
+-- Loading architecture structural of rc_adder_2 into library work
+-- Compiling root entity alu_mem(add_mux)
+-- Compiling entity mem_2port(structure)
+-- Compiling entity mem_quartus(rtl)
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/mem_quartus_rtl.vhd",line 64: Info, RAM detected for 'ram'.
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/mem_quartus_rtl.vhd",line 64: Info, created RAM instance 'modgen_ram_ix60' for 'ram'.
+.
+-- Compiling entity alu_8(with_RCA)
+-- Compiling entity rc_adder_2_8(structural)
+-- Compiling entity full_adder_1(dataflow)
+-- Boundary optimization.
+-- Boundary optimization.
+-- Boundary optimization.
+-- Start pre-optimization for design .work.mem_quartus.rtl
+-- Start pre-optimization for design .work.mem_2port.structure
+-- Start pre-optimization for design .work.full_adder_1.dataflow_unfold_2931
+-- Start pre-optimization for design .work.full_adder_1.dataflow_unfold_2932
+-- Start pre-optimization for design .work.full_adder_1.dataflow_unfold_2212
+-- Start pre-optimization for design .work.rc_adder_2_8.structural_unfold_1433
+-- Start pre-optimization for design .work.alu_8.with_RCA_unfold_1573_0
+-- Start pre-optimization for design .work.alu_mem.add_mux
+-- Start pre-optimization for design .work.mem_quartus.rtl
+-- Start pre-optimization for design .work.mem_2port.structure
+-- Start pre-optimization for design .work.full_adder_1.dataflow_unfold_2931
+-- Start pre-optimization for design .work.full_adder_1.dataflow_unfold_2932
+-- Start pre-optimization for design .work.full_adder_1.dataflow_unfold_2212
+-- Start pre-optimization for design .work.rc_adder_2_8.structural_unfold_1433
+-- Start pre-optimization for design .work.alu_8.with_RCA_unfold_1573_0
+-- Start pre-optimization for design .work.alu_mem.add_mux
+Info: setting register2register to 2.500000
+Info: setting input2register to 2.500000
+Info: setting register2output to 2.500000
+Info, Instances dissolved by autodissolve in View .work.mem_2port.structure
+ Mem_block (mem_quartus)
+Info, Instances dissolved by autodissolve in View .work.rc_adder_2_8.structural_unfold_1433
+ G_ALL_5_G_OTHERS_fa_others (full_adder_1)
+ G_ALL_4_G_OTHERS_fa_others (full_adder_1)
+ G_ALL_3_G_OTHERS_fa_others (full_adder_1)
+ G_ALL_2_G_OTHERS_fa_others (full_adder_1)
+ G_ALL_1_G_OTHERS_fa_others (full_adder_1)
+ G_ALL_0_G_0_fa_0 (full_adder_1)
+Info, Instances dissolved by autodissolve in View .work.alu_8.with_RCA_unfold_1573_0
+ add (rc_adder_2_8)
+Info, Instances dissolved by autodissolve in View .work.alu_mem.add_mux
+ mem (mem_2port)
+ alu_bs (alu_8)
+ alu_ds (alu_8)
+NO wire table is found
+-- Optimizing netlist .work.alu_mem.add_mux
+-- Matching combinational logic..
+-- Matching non-combinational logic..
+-- Covering..
+-- CPU Time used :   00:02 Mapping
+Re-checking DRC after adjustments
+Re-checking DRC after adjustments
+-- Final Design Rule Check..
+Re-checking DRC after adjustments
+-- Start timing optimization for design .work.alu_mem.add_mux
+
+Initial Timing Optimization Statistics:
+---------------------------------------
+
+	Most Critical Slack    :       -1.1
+	Sum of Negative Slacks :     -418.4
+	Area                   :     4440.2
+
+                                                             
+Final Timing Optimization Statistics:
+-------------------------------------
+
+	Most Critical Slack    :       -0.5
+	Sum of Negative Slacks :     -145.3
+	Area                   :     4518.0
+
+	Total time taken : 18 cpu secs
+Re-checking DRC after adjustments
+NO wire table is found
+
+
+
+                        Critical Path Report
+
+
+Critical path #1, (path slack = -0.5):
+
+NAME                                                        GATE              ARRIVAL              LOAD
+-------------------------------------------------------------------------------------------------------
+ds_from_rb(0)/                                                          0.00  0.00 dn             0.10
+ix9185/Y                                                    nor02ii     0.25  0.25 dn             0.03
+ix9186/Y                                                    nand04_2x   0.24  0.49 up             0.02
+reg_nx150/Y                                                 aoi32       0.19  0.68 dn             0.03
+ix155/Y                                                     mux21_ni    0.44  1.12 dn             0.04
+ix5680/Y                                                    nand02      0.28  1.40 up             0.04
+ix283/Y                                                     nor02_2x    0.19  1.59 dn             0.05
+ix805/Y                                                     nor02ii     0.27  1.86 dn             0.01
+ix8363/Y                                                    buf02       0.32  2.18 dn             0.07
+ix7574/Y                                                    aoi22       0.25  2.43 up             0.01
+ix4871/Y                                                    nand04      0.19  2.62 dn             0.02
+ix7563/Y                                                    nor04       0.29  2.91 up             0.01
+ix5195/Y                                                    nand02      0.06  2.97 dn             0.00
+ds_data_out(6)/                                                         0.00  2.97 dn             0.00
+data arrival time                                                             2.97
+
+data required time  (default specified)                                       2.50
+-------------------------------------------------------------------------------------------------------
+data required time                                                            2.50
+data arrival time                                                             2.97
+                                                                           ----------
+slack                                                                        -0.47
+-------------------------------------------------------------------------------------------------------
+
+
+Info: setting propagate_clock_delay to TRUE
+NO wire table is found
+Info: setting novendor_constraint_file to FALSE
+AutoWrite args are : -format VHDL alu_mem_gt.vhd
+-- Writing file alu_mem_gt.vhd
+Info, Working Directory is now 'C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_2/síntese'
+Info, History file moved to new working directory
+Info, Log file moved to new working directory
+-- Reading vhdl file C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/alu_1.vhd into library work
+-- Loading entity alu into library work
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/alu_1.vhd",line 19: Warning, replacing alu in HDL library work.
+-- Loading architecture with_RCA of alu into library work
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/alu_1.vhd",line 61: Warning, signal carry_out_s is never used.
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/alu_1.vhd",line 34: Warning, replacing with_RCA of entity alu.
+-- Reading vhdl file C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/alu_mem.vhd into library work
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/alu_mem.vhd",line 21: Info, Enumerated type CONTROL_SELECT with 2 elements encoded as binary.
+Encodings for CONTROL_SELECT values
+   value    CONTROL_SELECT[0]
+=============================
+       INIT_CON  0
+  STEP_GURU_CON  1
+
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/alu_mem.vhd",line 27: Info, Enumerated type RB_SEL with 3 elements encoded as binary.
+Encodings for RB_SEL values
+        value    RB_SEL[1-0]
+============================
+       INIT_OUT  00
+   REG_GURU_OUT  -1
+REG_GURU_PREV_OUT  10
+
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/alu_mem.vhd",line 34: Info, Enumerated type CODE with 4 elements encoded as binary.
+Encodings for CODE values
+        value    CODE[1-0]
+==========================
+          BLANK  00
+           GURU  01
+       DISCIPLE  10
+            DUO  11
+
+-- Loading package wisdom_package into library work
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/alu_mem.vhd",line 19: Warning, replacing wisdom_package in HDL library work.
+-- Loading entity alu_mem into library work
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/alu_mem.vhd",line 97: Warning, replacing alu_mem in HDL library work.
+-- Loading architecture add_mux of alu_mem into library work
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/alu_mem.vhd",line 126: Warning, replacing add_mux of entity alu_mem.
+-- Reading vhdl file C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/full_adder_1.vhd into library work
+-- Loading entity full_adder_1 into library work
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/full_adder_1.vhd",line 4: Warning, replacing full_adder_1 in HDL library work.
+-- Loading architecture dataflow of full_adder_1 into library work
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/full_adder_1.vhd",line 15: Warning, replacing dataflow of entity full_adder_1.
+-- Reading vhdl file C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/mem_2port.vhd into library work
+-- Loading entity mem_2port into library work
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/mem_2port.vhd",line 12: Warning, replacing mem_2port in HDL library work.
+-- Loading architecture structure of mem_2port into library work
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/mem_2port.vhd",line 24: Warning, replacing structure of entity mem_2port.
+-- Reading vhdl file C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/mem_quartus_rtl.vhd into library work
+-- Loading entity mem_quartus into library work
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/mem_quartus_rtl.vhd",line 41: Warning, replacing mem_quartus in HDL library work.
+-- Loading architecture rtl of mem_quartus into library work
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/mem_quartus_rtl.vhd",line 61: Warning, signal q_a_s is never used.
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/mem_quartus_rtl.vhd",line 61: Warning, signal q_a_s is never assigned a value.
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/mem_quartus_rtl.vhd",line 61: Warning, signal q_b_s is never used.
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/mem_quartus_rtl.vhd",line 61: Warning, signal q_b_s is never assigned a value.
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/mem_quartus_rtl.vhd",line 56: Warning, replacing rtl of entity mem_quartus.
+-- Reading vhdl file C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/rc_adder_2.vhd into library work
+-- Loading entity rc_adder_2 into library work
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/rc_adder_2.vhd",line 4: Warning, replacing rc_adder_2 in HDL library work.
+-- Loading architecture structural of rc_adder_2 into library work
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_1/fonte/rc_adder_2.vhd",line 20: Warning, replacing structural of entity rc_adder_2.
+-- Reading vhdl file C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_2/fonte/alu_1.vhd into library work
+-- Loading entity alu into library work
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_2/fonte/alu_1.vhd",line 19: Warning, replacing alu in HDL library work.
+-- Loading architecture with_RCA of alu into library work
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_2/fonte/alu_1.vhd",line 61: Warning, signal carry_out_s is never used.
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_2/fonte/alu_1.vhd",line 34: Warning, replacing with_RCA of entity alu.
+-- Reading vhdl file C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_2/fonte/alu_mem.vhd into library work
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_2/fonte/alu_mem.vhd",line 21: Info, Enumerated type CONTROL_SELECT with 2 elements encoded as binary.
+Encodings for CONTROL_SELECT values
+   value    CONTROL_SELECT[0]
+=============================
+       INIT_CON  0
+  STEP_GURU_CON  1
+
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_2/fonte/alu_mem.vhd",line 27: Info, Enumerated type RB_SEL with 3 elements encoded as binary.
+Encodings for RB_SEL values
+        value    RB_SEL[1-0]
+============================
+       INIT_OUT  00
+   REG_GURU_OUT  -1
+REG_GURU_PREV_OUT  10
+
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_2/fonte/alu_mem.vhd",line 34: Info, Enumerated type CODE with 4 elements encoded as binary.
+Encodings for CODE values
+        value    CODE[1-0]
+==========================
+          BLANK  00
+           GURU  01
+       DISCIPLE  10
+            DUO  11
+
+-- Loading package wisdom_package into library work
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_2/fonte/alu_mem.vhd",line 19: Warning, replacing wisdom_package in HDL library work.
+-- Loading entity alu_mem into library work
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_2/fonte/alu_mem.vhd",line 97: Warning, replacing alu_mem in HDL library work.
+-- Loading architecture add_mux of alu_mem into library work
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_2/fonte/alu_mem.vhd",line 126: Warning, replacing add_mux of entity alu_mem.
+-- Reading vhdl file C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_2/fonte/full_adder_1.vhd into library work
+-- Loading entity full_adder_1 into library work
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_2/fonte/full_adder_1.vhd",line 4: Warning, replacing full_adder_1 in HDL library work.
+-- Loading architecture dataflow of full_adder_1 into library work
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_2/fonte/full_adder_1.vhd",line 15: Warning, replacing dataflow of entity full_adder_1.
+-- Reading vhdl file C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_2/fonte/mem_2port.vhd into library work
+-- Loading entity mem_2port into library work
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_2/fonte/mem_2port.vhd",line 12: Warning, replacing mem_2port in HDL library work.
+-- Loading architecture structure of mem_2port into library work
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_2/fonte/mem_2port.vhd",line 24: Warning, replacing structure of entity mem_2port.
+-- Reading vhdl file C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_2/fonte/mem_quartus_rtl.vhd into library work
+-- Loading entity mem_quartus into library work
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_2/fonte/mem_quartus_rtl.vhd",line 41: Warning, replacing mem_quartus in HDL library work.
+-- Loading architecture rtl of mem_quartus into library work
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_2/fonte/mem_quartus_rtl.vhd",line 61: Warning, signal q_a_s is never used.
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_2/fonte/mem_quartus_rtl.vhd",line 61: Warning, signal q_a_s is never assigned a value.
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_2/fonte/mem_quartus_rtl.vhd",line 61: Warning, signal q_b_s is never used.
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_2/fonte/mem_quartus_rtl.vhd",line 61: Warning, signal q_b_s is never assigned a value.
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_2/fonte/mem_quartus_rtl.vhd",line 56: Warning, replacing rtl of entity mem_quartus.
+-- Reading vhdl file C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_2/fonte/rc_adder_2.vhd into library work
+-- Loading entity rc_adder_2 into library work
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_2/fonte/rc_adder_2.vhd",line 4: Warning, replacing rc_adder_2 in HDL library work.
+-- Loading architecture structural of rc_adder_2 into library work
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_2/fonte/rc_adder_2.vhd",line 20: Warning, replacing structural of entity rc_adder_2.
+-- Compiling root entity alu_mem(add_mux)
+-- Compiling entity mem_2port(structure)
+-- Compiling entity mem_quartus(rtl)
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_2/fonte/mem_quartus_rtl.vhd",line 64: Info, RAM detected for 'ram'.
+"C:/Users/Vinícius/Desktop/USP/PSI3451 (WANG)/aula 9/alu_mem_2/fonte/mem_quartus_rtl.vhd",line 64: Info, created RAM instance 'modgen_ram_ix60' for 'ram'.
+.
+-- Info, replacing mem_quartus(rtl)
+-- Info, replacing mem_2port(structure)
+-- Compiling entity alu_8(with_RCA)
+-- Compiling entity rc_adder_2_8(structural)
+-- Compiling entity full_adder_1(dataflow)
+-- Info, replacing alu_mem(add_mux)
+-- Boundary optimization.
+-- Boundary optimization.
+-- Boundary optimization.
+-- Start pre-optimization for design .work.mem_quartus.rtl
+-- Start pre-optimization for design .work.mem_2port.structure
+-- Start pre-optimization for design .work.full_adder_1.dataflow_unfold_2931
+-- Start pre-optimization for design .work.full_adder_1.dataflow_unfold_2932
+-- Start pre-optimization for design .work.full_adder_1.dataflow_unfold_2212
+-- Start pre-optimization for design .work.rc_adder_2_8.structural_unfold_1433
+-- Start pre-optimization for design .work.alu_8.with_RCA_unfold_1573_0
+-- Start pre-optimization for design .work.alu_mem.add_mux
+-- Start pre-optimization for design .work.mem_quartus.rtl
+-- Start pre-optimization for design .work.mem_2port.structure
+-- Start pre-optimization for design .work.full_adder_1.dataflow_unfold_2931
+-- Start pre-optimization for design .work.full_adder_1.dataflow_unfold_2932
+-- Start pre-optimization for design .work.full_adder_1.dataflow_unfold_2212
+-- Start pre-optimization for design .work.rc_adder_2_8.structural_unfold_1433
+-- Start pre-optimization for design .work.alu_8.with_RCA_unfold_1573_0
+-- Start pre-optimization for design .work.alu_mem.add_mux
+Info: setting register2register to 5.000000
+Info: setting input2register to 5.000000
+Info: setting register2output to 5.000000
+Info, Instances dissolved by autodissolve in View .work.mem_2port.structure
+ Mem_block (mem_quartus)
+Info, Instances dissolved by autodissolve in View .work.rc_adder_2_8.structural_unfold_1433
+ G_ALL_5_G_OTHERS_fa_others (full_adder_1)
+ G_ALL_4_G_OTHERS_fa_others (full_adder_1)
+ G_ALL_3_G_OTHERS_fa_others (full_adder_1)
+ G_ALL_2_G_OTHERS_fa_others (full_adder_1)
+ G_ALL_1_G_OTHERS_fa_others (full_adder_1)
+ G_ALL_0_G_0_fa_0 (full_adder_1)
+Info, Instances dissolved by autodissolve in View .work.alu_8.with_RCA_unfold_1573_0
+ add (rc_adder_2_8)
+Info, Instances dissolved by autodissolve in View .work.alu_mem.add_mux
+ mem (mem_2port)
+ alu_bs (alu_8)
+ alu_ds (alu_8)
+NO wire table is found
+-- Optimizing netlist .work.alu_mem.add_mux
+-- Matching combinational logic..
+-- Matching non-combinational logic..
+-- Covering..
+-- CPU Time used :   00:02 Mapping
+Re-checking DRC after adjustments
+Re-checking DRC after adjustments
+-- Final Design Rule Check..
+Re-checking DRC after adjustments
+-- Start timing optimization for design .work.alu_mem.add_mux
+No critical paths to optimize at this level
+NO wire table is found

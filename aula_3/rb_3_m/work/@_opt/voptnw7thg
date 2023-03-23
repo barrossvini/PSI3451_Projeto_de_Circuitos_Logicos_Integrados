@@ -1,0 +1,66 @@
+m255
+K3
+13
+cModel Technology
+Z0 dX:\psi3451\aula 3\rb_3_m
+T_opt
+V94L5:ZW4DRK[Q6IzlLVcT2
+04 8 15 work reg_bank process_if_else 1
+=1-782bcbbffc62-5e615319-f3-34c
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+OL;O;10.1d;51
+Pmy_package
+Z1 w1583436501
+Z2 dX:\psi3451\aula 3\rb_3_m
+Z3 8X:/psi3451/aula 3/rb_3_m/reg_bank_simplificado_3m.vhd
+Z4 FX:/psi3451/aula 3/rb_3_m/reg_bank_simplificado_3m.vhd
+l0
+L13
+VFB_oY=m@m@d=NjJXmFFP:2
+Z5 OL;C;10.1d;51
+32
+Z6 !s108 1583436558.493000
+Z7 !s90 -reportprogress|300|-work|work|X:/psi3451/aula 3/rb_3_m/reg_bank_simplificado_3m.vhd|
+Z8 !s107 X:/psi3451/aula 3/rb_3_m/reg_bank_simplificado_3m.vhd|
+Z9 o-work work
+Z10 tExplicit 1
+!s100 j_A@jS5ZLgW:XkR^8coNA1
+!i10b 1
+Ereg_bank
+R1
+Z11 DPx4 work 10 my_package 0 22 FB_oY=m@m@d=NjJXmFFP:2
+Z12 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z13 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+R2
+R3
+R4
+l0
+L31
+V:d>I5>aMiV;f:miPBV;6E1
+R5
+32
+R6
+R7
+R8
+R9
+R10
+!s100 YeBX`1OlKV1Gl_V`mLoVQ2
+!i10b 1
+Aprocess_if_else
+R11
+R12
+R13
+DEx4 work 8 reg_bank 0 22 :d>I5>aMiV;f:miPBV;6E1
+l61
+L51
+VnnZgEXnY9GEaWc3]GW=fd0
+R5
+32
+R6
+R7
+R8
+R9
+R10
+!s100 mAg6670mPdf]zjIYANioY1
+!i10b 1

@@ -1,0 +1,88 @@
+
+
+
+                        Clock Frequency Report
+
+	Clock                : Frequency
+      ------------------------------------
+
+	clk                  : 211.0 MHz
+
+
+                        Critical Path Report
+
+
+Critical path #1, (path slack =  0.3):
+
+NAME                                               GATE              ARRIVAL              LOAD
+----------------------------------------------------------------------------------------------
+clock information not specified
+delay thru clock network                                             0.00 (worst case)
+
+
+cnt_strat/reg_cnt_s(0)/Q                           dff         0.00  0.52 dn             0.05
+cnt_strat/cnt_s(0)                        (net)                0.00  0.52 dn   (fan)     2.00
+cnt_strat/ix1081/A                                 buf16       0.00  0.52 dn             0.00
+cnt_strat/ix1081/Y                                 buf16       0.24  0.76 dn             0.06
+cnt_strat/nx1000                          (net)                0.00  0.76 dn   (fan)     5.00
+cnt_strat/ix1072/A2                                and03       0.00  0.76 dn             0.00
+cnt_strat/ix1072/Y                                 and03       0.35  1.11 dn             0.03
+cnt_strat/nx991                           (net)                0.00  1.11 dn   (fan)     2.00
+cnt_strat/ix1074/A0                                nand02_2x   0.00  1.11 dn             0.00
+cnt_strat/ix1074/Y                                 nand02_2x   0.13  1.24 up             0.02
+cnt_strat/nx993                           (net)                0.00  1.24 up   (fan)     1.00
+cnt_strat/reg_nx514/A0                             nor02_2x    0.00  1.24 up             0.00
+cnt_strat/reg_nx514/Y                              nor02_2x    0.18  1.42 dn             0.05
+cnt_strat/nx514                           (net)                0.00  1.42 dn   (fan)     3.00
+cnt_strat/ix716/A1                                 nand02      0.00  1.42 dn             0.00
+cnt_strat/ix716/Y                                  nand02      0.23  1.65 up             0.03
+cnt_strat/nx715                           (net)                0.00  1.65 up   (fan)     3.00
+cnt_strat/ix249/A0                                 nor02ii     0.00  1.65 up             0.00
+cnt_strat/ix249/Y                                  nor02ii     0.27  1.92 dn             0.05
+cnt_strat/nx516                           (net)                0.00  1.92 dn   (fan)     3.00
+cnt_strat/ix703/A1                                 nand02      0.00  1.92 dn             0.00
+cnt_strat/ix703/Y                                  nand02      0.27  2.20 up             0.03
+cnt_strat/nx702                           (net)                0.00  2.20 up   (fan)     4.00
+cnt_strat/ix285_0_XREP5/A0                         nor02ii     0.00  2.20 up             0.00
+cnt_strat/ix285_0_XREP5/Y                          nor02ii     0.12  2.32 dn             0.01
+cnt_strat/nx518_XX0_XREP5                 (net)                0.00  2.32 dn   (fan)     1.00
+cnt_strat/ix686/A1                                 nand02      0.00  2.32 dn             0.00
+cnt_strat/ix686/Y                                  nand02      0.18  2.50 up             0.02
+cnt_strat/nx685                           (net)                0.00  2.50 up   (fan)     2.00
+cnt_strat/ix321_0_XREP1/A0                         nor02ii     0.00  2.50 up             0.00
+cnt_strat/ix321_0_XREP1/Y                          nor02ii     0.11  2.61 dn             0.01
+cnt_strat/nx521_XX0_XREP1                 (net)                0.00  2.61 dn   (fan)     1.00
+cnt_strat/ix668/A1                                 nand02      0.00  2.61 dn             0.00
+cnt_strat/ix668/Y                                  nand02      0.21  2.81 up             0.03
+cnt_strat/nx667                           (net)                0.00  2.81 up   (fan)     3.00
+cnt_strat/ix357/A0                                 nor02ii     0.00  2.81 up             0.00
+cnt_strat/ix357/Y                                  nor02ii     0.29  3.11 dn             0.05
+cnt_strat/nx523                           (net)                0.00  3.11 dn   (fan)     3.00
+cnt_strat/ix650/A1                                 nand02_2x   0.00  3.11 dn             0.00
+cnt_strat/ix650/Y                                  nand02_2x   0.39  3.50 up             0.11
+cnt_strat/nx649                           (net)                0.00  3.50 up   (fan)     7.00
+cnt_strat/reg_nx530/A0                             nor03_2x    0.00  3.50 up             0.00
+cnt_strat/reg_nx530/Y                              nor03_2x    0.35  3.85 dn             0.08
+cnt_strat/nx530                           (net)                0.00  3.85 dn   (fan)     6.00
+cnt_strat/reg_NOT_nx563/A0                         and03       0.00  3.85 dn             0.00
+cnt_strat/reg_NOT_nx563/Y                          and03       0.30  4.14 dn             0.01
+cnt_strat/NOT_nx563                       (net)                0.00  4.14 dn   (fan)     1.00
+cnt_strat/ix1010/A                                 inv02       0.00  4.14 dn             0.00
+cnt_strat/ix1010/Y                                 inv02       0.09  4.23 up             0.01
+cnt_strat/nx929                           (net)                0.00  4.23 up   (fan)     1.00
+cnt_strat/ix547/A1                                 and03       0.00  4.23 up             0.00
+cnt_strat/ix547/Y                                  and03       0.30  4.53 up             0.02
+cnt_strat/nx546                           (net)                0.00  4.53 up   (fan)     1.00
+cnt_strat/reg_cnt_s(29)/D                          dff         0.00  4.53 up             0.00
+data arrival time                                                    4.53
+
+
+data required time  (default specified - setup time)                  4.79
+----------------------------------------------------------------------------------------------
+data required time                                                   4.79
+data arrival time                                                    4.53
+                                                                  ----------
+slack                                                               0.26
+----------------------------------------------------------------------------------------------
+
+
